@@ -11,6 +11,8 @@ outreach_list.csv
 prospects_from_ats.csv
 funding_prospects.csv
 *_norm.csv
+my_watchlist.csv
+batch.csv
 
 # Python
 __pycache__/

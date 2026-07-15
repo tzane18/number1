@@ -73,6 +73,26 @@ fresh; `import-csv` updates existing companies in place.
 > policy (you'll see a 403). Run `fetch_ats.py` from your own machine, or use a web
 > environment whose network policy allows public sites. The `--selftest` works anywhere.
 
+## Don't know the board slugs? Just use company names
+
+`find_board.py` takes company **names**, auto-discovers each one's job board
+(Greenhouse / Lever / Ashby) by probing the public endpoints, and writes the
+watchlist for you — so you skip the manual slug hunt entirely.
+
+```bash
+# names one per line in a file (see data/example_companies.txt):
+python3 find_board.py data/example_companies.txt -o my_watchlist.csv
+
+# or straight on the command line:
+python3 find_board.py --names "Ramp" "Vercel" "Retool" -o my_watchlist.csv
+
+python3 find_board.py --selftest      # offline check, no network
+```
+
+It prints a sample job title for each match so you can confirm it found the right
+company, then you run `fetch_ats.py my_watchlist.csv` as usual. Companies it can't
+resolve are listed so you can grab those slugs by hand.
+
 ## Add the funding signal (Crunchbase / funding news)
 
 A fresh raise is the strongest "reach out now" trigger. `import_funding.py` normalizes
@@ -226,6 +246,7 @@ on_recruiting_marketplace, source, notes
 ```
 recruiting_prospector/
 ├── prospector.py               # the CLI (init, import, enrich, score, rank, show, export, add, stats)
+├── find_board.py               # company NAMES -> auto-discovered job-board watchlist
 ├── fetch_ats.py                # pull live roles from Greenhouse/Lever/Ashby -> import CSV
 ├── import_funding.py           # normalize Crunchbase CSV / funding RSS -> enrich CSV
 ├── scoring.py                  # the ICP fit-score engine + contact recommender

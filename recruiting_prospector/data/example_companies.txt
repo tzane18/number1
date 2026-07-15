@@ -1,0 +1,15 @@
+# Example tech company names to try with find_board.py:
+#   python3 find_board.py data/example_companies.txt -o my_watchlist.csv
+# These are just to test the resolver — swap in your own targets.
+# (find_board discovers each company's job board live; some may not resolve,
+#  which is reported so you can look them up manually.)
+Ramp
+Vercel
+Retool
+Mercury
+Airbyte
+Hex
+Modal
+Census
+Watershed
+Baseten
