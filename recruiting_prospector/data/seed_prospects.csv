@@ -1,0 +1,25 @@
+name,domain,linkedin_url,industry,hq_location,headcount,headcount_growth_6mo,funding_stage,last_funding_date,last_funding_amount_usd,open_roles,hard_roles,primary_hiring_function,in_house_recruiters,on_recruiting_marketplace,source,notes
+Nimbus Data Labs,nimbusdatalabs.com,,AI/ML Infrastructure,San Francisco CA,32,0.45,Series A,2026-05-12,14000000,11,7,Engineering,0,1,sample_seed,Illustrative example — replace with a real prospect
+Beacon Health AI,beaconhealth.ai,,Healthtech,Boston MA,24,0.6,Seed,2026-06-02,6000000,8,5,Engineering,0,1,sample_seed,Illustrative example — replace with a real prospect
+Ledgerline,ledgerline.io,,Fintech,New York NY,48,0.3,Series A,2026-03-20,18000000,13,6,Engineering,1,0,sample_seed,Illustrative example — replace with a real prospect
+Verdant Robotics Co,verdantrobotics.co,,Robotics,Austin TX,40,0.35,Series A,2026-04-15,22000000,10,8,Engineering,0,0,sample_seed,Illustrative example — replace with a real prospect
+Cobalt Security,cobaltsec.io,,Cybersecurity,Remote,29,0.5,Seed,2026-06-25,7500000,9,6,Engineering,0,1,sample_seed,Illustrative example — replace with a real prospect
+Harborstack,harborstack.com,,DevTools/SaaS,Seattle WA,55,0.25,Series B,2026-02-10,30000000,14,5,Engineering,2,0,sample_seed,Illustrative example — replace with a real prospect
+Fernwood Bio,fernwoodbio.com,,Biotech,San Diego CA,18,0.4,Seed,2026-05-30,9000000,6,4,Data,0,0,sample_seed,Illustrative example — replace with a real prospect
+Tally GTM,tallygtm.com,,Sales SaaS,Remote,22,0.55,Seed,2026-06-18,5500000,10,3,Sales,0,1,sample_seed,Illustrative example — replace with a real prospect
+Solaris Grid,solarisgrid.energy,,Climate/Energy,Denver CO,60,0.2,Series B,2026-01-22,35000000,12,7,Engineering,3,0,sample_seed,Illustrative example — replace with a real prospect
+Pixelforge,pixelforge.studio,,Gaming,Los Angeles CA,35,0.15,Series A,2025-11-05,16000000,7,3,Design,1,0,sample_seed,Illustrative example — replace with a real prospect
+Quill Legal,quill.legal,,Legaltech,Remote,14,0.7,Seed,2026-06-28,4000000,7,4,Engineering,0,1,sample_seed,Illustrative example — replace with a real prospect
+Northstar Logistics,northstarlogistics.ai,,Supply Chain,Chicago IL,72,0.18,Series B,2025-12-12,28000000,11,4,Product,3,0,sample_seed,Illustrative example — replace with a real prospect
+Aperture Vision,aperturevision.ai,,Computer Vision,Palo Alto CA,26,0.5,Series A,2026-05-01,20000000,9,7,Engineering,0,1,sample_seed,Illustrative example — replace with a real prospect
+Maplewood Retail,maplewoodretail.com,,Retail/E-comm,Columbus OH,140,0.05,Series C+,2024-09-15,50000000,6,1,Sales,5,0,sample_seed,Illustrative example — replace with a real prospect
+Driftwood Media,driftwood.media,,Media,Remote,9,0.1,Pre-seed,2026-04-10,1500000,3,1,Marketing,0,0,sample_seed,Illustrative example — replace with a real prospect
+Ironclad Compute,ironcladcompute.com,,Cloud Infra,San Francisco CA,45,0.4,Series A,2026-04-28,25000000,12,8,Engineering,1,1,sample_seed,Illustrative example — replace with a real prospect
+Cedar Payments,cedarpayments.com,,Fintech,Miami FL,38,0.3,Seed,2026-03-08,8000000,10,5,Engineering,0,0,sample_seed,Illustrative example — replace with a real prospect
+Lantern Learning,lanternlearning.co,,Edtech,Remote,20,0.35,Seed,2026-02-25,5000000,6,2,Product,0,1,sample_seed,Illustrative example — replace with a real prospect
+Summit Analytics,summitanalytics.io,,Data/Analytics,Remote,33,0.28,Series A,2026-05-20,15000000,9,5,Data,1,0,sample_seed,Illustrative example — replace with a real prospect
+Orchard AgTech,orchardagtech.com,,Agtech,Sacramento CA,16,0.45,Seed,2026-06-10,4500000,5,3,Engineering,0,0,sample_seed,Illustrative example — replace with a real prospect
+GlobalCorp Systems,globalcorp.com,,Enterprise Software,New York NY,2400,0.03,Public,2019-05-01,0,4,1,Engineering,25,0,sample_seed,Illustrative example — low-fit control (too big)
+Riverstone Consulting,riverstoneco.com,,Consulting,Dallas TX,85,0.0,Bootstrapped,,0,0,0,Operations,2,0,sample_seed,Illustrative example — low-fit control (no hiring)
+Bluepeak Wireless,bluepeak.io,,Telecom,Remote,120,0.12,Series C+,2025-06-15,40000000,5,2,Engineering,4,0,sample_seed,Illustrative example — replace with a real prospect
+Meridian Freight,meridianfreight.com,,Logistics,Atlanta GA,58,0.22,Series A,2026-01-30,17000000,8,3,Sales,1,1,sample_seed,Illustrative example — replace with a real prospect
