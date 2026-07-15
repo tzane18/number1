@@ -386,6 +386,72 @@ def cmd_enrich(args):
     print(f"Re-scored {len(touched)} companies.")
 
 
+def cmd_digest(args):
+    """This run's new / newly-qualified prospects — the fresh targets to work."""
+    conn = connect()
+    conn.execute("CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT)")
+
+    if args.since:
+        cutoff, basis = args.since, f"since {args.since}"
+    elif args.days:
+        cutoff = conn.execute("SELECT datetime('now', ?)", (f"-{args.days} days",)).fetchone()[0]
+        basis = f"last {args.days} days"
+    else:
+        row = conn.execute("SELECT value FROM meta WHERE key='last_digest_at'").fetchone()
+        if row:
+            cutoff, basis = row[0], f"since last digest ({row[0]} UTC)"
+        else:
+            cutoff = conn.execute("SELECT datetime('now', '-7 days')").fetchone()[0]
+            basis = "last 7 days (no previous digest)"
+
+    tiers = [t.strip().upper() for t in (args.tiers or "A,B").split(",") if t.strip()]
+    ph = ",".join("?" for _ in tiers)
+    rows = conn.execute(
+        f"SELECT c.*, s.fit_score, s.tier, s.reasons_json, o.status AS ostatus "
+        f"FROM companies c JOIN scores s ON s.company_id=c.id "
+        f"LEFT JOIN outreach o ON o.company_id=c.id "
+        f"WHERE (c.created_at > ? OR s.scored_at > ?) AND s.tier IN ({ph}) "
+        f"ORDER BY s.fit_score DESC",
+        [cutoff, cutoff] + tiers).fetchall()
+
+    if not args.include_contacted:
+        rows = [r for r in rows if (r["ostatus"] in (None, "not_started"))]
+
+    print("=" * 72)
+    print(f"  PROSPECT DIGEST — {basis}")
+    print(f"  Tier {'/'.join(tiers)}"
+          + ("" if args.include_contacted else ", not yet contacted")
+          + f"  ·  {len(rows)} target(s)")
+    print("=" * 72)
+
+    if not rows:
+        print("  Nothing new to work. Refresh data (fetch_ats / import_funding + enrich)\n"
+              "  or widen the window: digest --days 30")
+    for i, r in enumerate(rows, 1):
+        rec = scoring.recommend_contact(r["headcount"], r["primary_hiring_function"],
+                                        r["in_house_recruiters"])
+        kit = outreach_mod.build_outreach_kit(r, primary_title=rec["primary_title"],
+                                              your_name=args.your_name)
+        reasons = json.loads(r["reasons_json"]) if r["reasons_json"] else []
+        size = f"{r['headcount']}ppl" if r["headcount"] else "size ?"
+        print(f"\n {i}. {r['name']}   [{r['tier']} · {r['fit_score']:.0f}]   "
+              f"{size} · {r['funding_stage'] or 'stage ?'} · "
+              f"{r['open_roles'] or 0} open roles")
+        print(f"     → contact: {rec['primary_title']}")
+        print(f"       find:    {kit['find_person_url']}")
+        if reasons:
+            print(f"       why:     {reasons[0]}")
+
+    if not args.peek and rows is not None:
+        now = conn.execute("SELECT datetime('now')").fetchone()[0]
+        conn.execute("INSERT INTO meta(key, value) VALUES('last_digest_at', ?) "
+                     "ON CONFLICT(key) DO UPDATE SET value=excluded.value", (now,))
+        conn.commit()
+        print(f"\n  (marked digest run at {now} UTC — next digest shows what's new after this;"
+              f" use --peek to look without marking)")
+    conn.close()
+
+
 def cmd_stats(args):
     conn = connect()
     total = conn.execute("SELECT COUNT(*) FROM companies").fetchone()[0]
@@ -457,6 +523,18 @@ def build_parser():
                     help="add companies that don't match any existing record")
     pn.add_argument("--verbose", action="store_true")
     pn.set_defaults(func=cmd_enrich)
+
+    pd = sub.add_parser("digest",
+                        help="show new / newly-qualified prospects since the last digest run")
+    pd.add_argument("--days", type=int, help="look back N days instead of since last digest")
+    pd.add_argument("--since", help="explicit cutoff date/time (YYYY-MM-DD)")
+    pd.add_argument("--tiers", default="A,B", help="tiers to include (default A,B)")
+    pd.add_argument("--include-contacted", action="store_true",
+                    help="also show prospects already in outreach")
+    pd.add_argument("--peek", action="store_true",
+                    help="don't mark this as a digest run (look without advancing the window)")
+    pd.add_argument("--your-name", default="[Your Name]")
+    pd.set_defaults(func=cmd_digest)
 
     sub.add_parser("stats", help="database + pipeline snapshot").set_defaults(func=cmd_stats)
     return p

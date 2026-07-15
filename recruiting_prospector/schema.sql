@@ -83,6 +83,12 @@ CREATE TABLE IF NOT EXISTS outreach (
     updated_at       TEXT DEFAULT (datetime('now'))
 );
 
+-- Small key/value store for tool state (e.g. when `digest` last ran).
+CREATE TABLE IF NOT EXISTS meta (
+    key   TEXT PRIMARY KEY,
+    value TEXT
+);
+
 CREATE INDEX IF NOT EXISTS idx_roles_company    ON roles(company_id);
 CREATE INDEX IF NOT EXISTS idx_contacts_company ON contacts(company_id);
 CREATE INDEX IF NOT EXISTS idx_outreach_company ON outreach(company_id);

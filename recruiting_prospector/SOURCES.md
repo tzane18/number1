@@ -83,7 +83,8 @@ python3 prospector.py enrich funding.csv            # fills funding/size, keeps 
 2. Pull recent raises: `python3 import_funding.py crunchbase_export.csv -o funding.csv`,
    then `python3 prospector.py enrich funding.csv --insert-missing`.
    (Re-runs are safe; `enrich` updates existing companies and `--insert-missing` adds new ones.)
-3. `python3 prospector.py rank --tier A --limit 20` to see this week's best targets.
+3. `python3 prospector.py digest --your-name "Your Name"` to see ONLY what's new or
+   newly-qualified since last week (or `rank --tier A` for the full standing list).
 4. `python3 prospector.py export week_of_2026_07_20.csv --your-name "Your Name"`.
 5. Work the list on LinkedIn: use `find_person_url` to reach the right person, send the
    `connection_note`, then the `first_message` once they accept.

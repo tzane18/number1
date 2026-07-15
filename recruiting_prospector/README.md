@@ -56,6 +56,9 @@ python3 fetch_ats.py data/watchlist.example.csv -o prospects_from_ats.csv
 python3 prospector.py import-csv prospects_from_ats.csv
 python3 prospector.py rank --tier A
 
+# 4. Each week, pull just what's newly worth working:
+python3 prospector.py digest --your-name "Your Name"
+
 # Offline check that the parsers work, no network needed:
 python3 fetch_ats.py --selftest
 ```
@@ -146,6 +149,7 @@ python3 prospector.py export my_list.csv --tier A --your-name "Your Name"
 | `enrich <file> [--insert-missing] [--overwrite]` | Merge funding/other data into existing companies by name; fills empty fields, re-scores, and won't clobber live hiring signals. |
 | `score` | Recompute fit scores for everyone. |
 | `rank [--tier A] [--limit N]` | List companies best-fit first. |
+| `digest [--days N] [--peek]` | Show only the **new / newly-qualified** A/B prospects since your last digest run — your weekly "who to work now" list. |
 | `show <id or name> [--your-name X]` | Full detail on one company: score bars, reasons, who to contact, and the drafted outreach. |
 | `export <file.csv> [--tier A] [--limit N] [--your-name X]` | Write a ranked, ready-to-send outreach list. |
 | `add "<Name>" [--headcount N ...]` | Add a single company by hand (and score it). |
