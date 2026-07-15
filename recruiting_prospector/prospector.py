@@ -27,6 +27,7 @@ import sys
 
 import scoring
 import outreach as outreach_mod
+from import_funding import normalize_name
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(HERE, "prospects.db")
@@ -284,6 +285,107 @@ def cmd_add(args):
     print(f"Added '{args.name}' — fit score {result['fit_score']} (Tier {result['tier']})")
 
 
+def _rescore(conn, company_id):
+    row = conn.execute("SELECT * FROM companies WHERE id=?", (company_id,)).fetchone()
+    result = scoring.score_company(row)
+    conn.execute(
+        "INSERT INTO scores (company_id, fit_score, tier, subscores_json, reasons_json) "
+        "VALUES (?, ?, ?, ?, ?) ON CONFLICT(company_id) DO UPDATE SET "
+        "fit_score=excluded.fit_score, tier=excluded.tier, "
+        "subscores_json=excluded.subscores_json, reasons_json=excluded.reasons_json, "
+        "scored_at=datetime('now')",
+        (company_id, result["fit_score"], result["tier"],
+         json.dumps(result["subscores"]), json.dumps(result["reasons"])))
+    return result
+
+
+# Fields enrich may fill. Deliberately excludes the live-hiring signals
+# (open_roles, hard_roles, primary_hiring_function) so a funding import never
+# clobbers what fetch_ats.py learned from the job boards.
+_ENRICH_FIELDS = [
+    "domain", "linkedin_url", "industry", "hq_location", "headcount",
+    "headcount_growth_6mo", "funding_stage", "last_funding_date",
+    "last_funding_amount_usd", "in_house_recruiters", "on_recruiting_marketplace",
+]
+
+
+def cmd_enrich(args):
+    if not os.path.exists(args.file):
+        sys.exit(f"File not found: {args.file}")
+    conn = connect()
+    companies = conn.execute("SELECT * FROM companies").fetchall()
+    by_name = {}
+    for c in companies:
+        by_name.setdefault(normalize_name(c["name"]).lower(), c)
+
+    matched = inserted = unmatched = 0
+    touched = set()
+    unmatched_names = []
+
+    with open(args.file, newline="", encoding="utf-8-sig") as fh:
+        for raw in csv.DictReader(fh):
+            name = (raw.get("name") or "").strip()
+            if not name:
+                continue
+            key = normalize_name(name).lower()
+            existing = by_name.get(key)
+
+            if existing is None:
+                if args.insert_missing:
+                    record = {"name": name}
+                    for f in COMPANY_FIELDS:
+                        if f in raw and raw[f] not in (None, ""):
+                            record[f] = _coerce(f, raw[f])
+                    _upsert_company(conn, record)
+                    conn.commit()
+                    row = _resolve_company(conn, name)
+                    by_name[key] = row
+                    touched.add(row["id"])
+                    inserted += 1
+                else:
+                    unmatched += 1
+                    unmatched_names.append(name)
+                continue
+
+            # Fill enrichable fields that are empty (or all, with --overwrite).
+            updates, applied = {}, []
+            for f in _ENRICH_FIELDS:
+                if f not in raw:
+                    continue
+                new_val = _coerce(f, raw[f])
+                if new_val in (None, ""):
+                    continue
+                cur = existing[f] if f in existing.keys() else None
+                if args.overwrite or cur in (None, ""):
+                    updates[f] = new_val
+                    applied.append(f)
+            if updates:
+                sets = ", ".join(f"{k}=?" for k in updates)
+                conn.execute(f"UPDATE companies SET {sets}, updated_at=datetime('now') "
+                             f"WHERE id=?", list(updates.values()) + [existing["id"]])
+                touched.add(existing["id"])
+                matched += 1
+                if args.verbose:
+                    print(f"  enriched {existing['name']}: {', '.join(applied)}")
+
+    conn.commit()
+    for cid in touched:
+        _rescore(conn, cid)
+    conn.commit()
+    conn.close()
+
+    print(f"Enriched {matched} existing companies"
+          + (f", inserted {inserted} new" if inserted else "")
+          + f". {unmatched} unmatched.")
+    if unmatched and not args.insert_missing:
+        print("  Unmatched (use --insert-missing to add them, or fix name spelling):")
+        for n in unmatched_names[:15]:
+            print(f"    - {n}")
+        if len(unmatched_names) > 15:
+            print(f"    ... and {len(unmatched_names) - 15} more")
+    print(f"Re-scored {len(touched)} companies.")
+
+
 def cmd_stats(args):
     conn = connect()
     total = conn.execute("SELECT COUNT(*) FROM companies").fetchone()[0]
@@ -345,6 +447,17 @@ def build_parser():
             pa.add_argument("--" + f.replace("_", "-"), dest=f, default=None)
     pa.set_defaults(func=cmd_add)
 
+    pn = sub.add_parser("enrich",
+                        help="merge funding/other data into EXISTING companies by name "
+                             "(fills empty fields; won't clobber live hiring signals)")
+    pn.add_argument("file")
+    pn.add_argument("--overwrite", action="store_true",
+                    help="overwrite existing values instead of only filling blanks")
+    pn.add_argument("--insert-missing", action="store_true",
+                    help="add companies that don't match any existing record")
+    pn.add_argument("--verbose", action="store_true")
+    pn.set_defaults(func=cmd_enrich)
+
     sub.add_parser("stats", help="database + pipeline snapshot").set_defaults(func=cmd_stats)
     return p
 
@@ -357,4 +470,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BrokenPipeError:
+        # stdout was closed early (e.g. piped to `head`); exit quietly.
+        try:
+            sys.stdout.close()
+        except Exception:
+            pass

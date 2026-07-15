@@ -57,12 +57,32 @@ It pulls live postings and fills in `open_roles`, `hard_roles`, and
 `primary_hiring_function` automatically; funding/headcount columns in the watchlist pass
 straight through. (`python3 fetch_ats.py --selftest` verifies the parsers offline.)
 
+## The included funding importer: `import_funding.py`
+
+For source #3 (funding) this repo ships a normalizer. Point it at a Crunchbase CSV export
+(or any funding CSV — it auto-detects columns), or a funding-news RSS feed:
+
+```bash
+python3 import_funding.py crunchbase_export.csv -o funding.csv     # CSV export
+python3 import_funding.py https://site.com/funding.rss -o funding.csv   # RSS feed
+```
+
+Then either import it as new prospects, or — better — merge it onto companies you already
+pulled from the job boards so both signals live on one record:
+
+```bash
+python3 prospector.py enrich funding.csv            # fills funding/size, keeps hiring data
+```
+
+(`python3 import_funding.py --selftest` verifies the parsers offline.)
+
 ## A weekly routine (about 30 minutes)
 
-1. Refresh live hiring data: `python3 fetch_ats.py my_watchlist.csv -o batch.csv`
-   (and/or add newly-funded companies from a funding feed into the same CSV shape).
-2. `python3 prospector.py import-csv batch.csv`  ← re-imports are safe; it updates
-   existing companies by `name + domain` and adds new ones.
+1. Refresh live hiring data: `python3 fetch_ats.py my_watchlist.csv -o batch.csv`,
+   then `python3 prospector.py import-csv batch.csv`.
+2. Pull recent raises: `python3 import_funding.py crunchbase_export.csv -o funding.csv`,
+   then `python3 prospector.py enrich funding.csv --insert-missing`.
+   (Re-runs are safe; `enrich` updates existing companies and `--insert-missing` adds new ones.)
 3. `python3 prospector.py rank --tier A --limit 20` to see this week's best targets.
 4. `python3 prospector.py export week_of_2026_07_20.csv --your-name "Your Name"`.
 5. Work the list on LinkedIn: use `find_person_url` to reach the right person, send the

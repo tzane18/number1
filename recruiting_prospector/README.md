@@ -70,6 +70,44 @@ fresh; `import-csv` updates existing companies in place.
 > policy (you'll see a 403). Run `fetch_ats.py` from your own machine, or use a web
 > environment whose network policy allows public sites. The `--selftest` works anywhere.
 
+## Add the funding signal (Crunchbase / funding news)
+
+A fresh raise is the strongest "reach out now" trigger. `import_funding.py` normalizes
+funding data — a **Crunchbase CSV export**, any funding CSV (it auto-detects the columns),
+or a **funding-news RSS feed** — into the same row shape.
+
+```bash
+# Crunchbase / PitchBook / Tracxn CSV export (auto-detects headers):
+python3 import_funding.py crunchbase_export.csv -o funding.csv
+
+# A funding-news RSS feed (file or URL) — pulls "X raises $Y Series Z" headlines:
+python3 import_funding.py https://example.com/funding.rss -o funding.csv
+
+python3 import_funding.py --selftest      # offline parser tests
+```
+
+Then merge it onto the companies you already have — this is what puts the funding signal
+and the live hiring signal on the **same scored record**:
+
+```bash
+python3 prospector.py enrich funding.csv            # fills empty fields only
+python3 prospector.py enrich funding.csv --insert-missing   # also add new companies
+```
+
+`enrich` matches by company name (ignoring `Inc.`/`LLC` suffixes), fills in funding,
+headcount, location, etc., and **never overwrites** the `open_roles` / `hard_roles` /
+`primary_hiring_function` that `fetch_ats.py` derived from the job boards. Affected
+companies are automatically re-scored. Unmatched names are reported so you can fix
+spelling or add them.
+
+**The full compliant pipeline:**
+
+```
+fetch_ats.py  (live open roles) ─┐
+                                 ├─►  prospects in SQLite  ─►  rank / export  ─►  LinkedIn
+import_funding.py (fresh raises)─┘        (auto-scored)
+```
+
 ---
 
 ## Quick start
@@ -105,6 +143,7 @@ python3 prospector.py export my_list.csv --tier A --your-name "Your Name"
 |---|---|
 | `init` | Create the SQLite database (`prospects.db`). |
 | `import-csv <file>` | Import/refresh companies from a CSV (re-imports are safe — updates by name+domain). Auto-scores unless `--no-score`. |
+| `enrich <file> [--insert-missing] [--overwrite]` | Merge funding/other data into existing companies by name; fills empty fields, re-scores, and won't clobber live hiring signals. |
 | `score` | Recompute fit scores for everyone. |
 | `rank [--tier A] [--limit N]` | List companies best-fit first. |
 | `show <id or name> [--your-name X]` | Full detail on one company: score bars, reasons, who to contact, and the drafted outreach. |
@@ -182,8 +221,9 @@ on_recruiting_marketplace, source, notes
 
 ```
 recruiting_prospector/
-├── prospector.py               # the CLI (init, import, score, rank, show, export, add, stats)
+├── prospector.py               # the CLI (init, import, enrich, score, rank, show, export, add, stats)
 ├── fetch_ats.py                # pull live roles from Greenhouse/Lever/Ashby -> import CSV
+├── import_funding.py           # normalize Crunchbase CSV / funding RSS -> enrich CSV
 ├── scoring.py                  # the ICP fit-score engine + contact recommender
 ├── outreach.py                 # LinkedIn message + search-URL generator
 ├── schema.sql                  # SQLite schema

@@ -9,6 +9,8 @@ prospects.db-shm
 outreach_list.csv
 *_outreach*.csv
 prospects_from_ats.csv
+funding_prospects.csv
+*_norm.csv
 
 # Python
 __pycache__/
