@@ -5,9 +5,10 @@ prospects.db-journal
 prospects.db-wal
 prospects.db-shm
 
-# Exported outreach lists
+# Exported outreach lists & fetched data
 outreach_list.csv
 *_outreach*.csv
+prospects_from_ats.csv
 
 # Python
 __pycache__/

@@ -41,11 +41,27 @@ feed it without violating anyone's Terms of Service.
    allow programmatic pulls and enrichment. If you want real automation, this is the
    compliant path: schedule a weekly pull → export CSV → `import-csv` → `export`.
 
+## The included fetcher: `fetch_ats.py`
+
+For source #1 (public ATS boards) this repo ships a working fetcher. Put your target
+companies in a watchlist (see `data/watchlist.example.csv`) with the board slug from
+their careers URL (`jobs.lever.co/SLUG`, `boards.greenhouse.io/SLUG`,
+`jobs.ashbyhq.com/SLUG`), then:
+
+```bash
+python3 fetch_ats.py my_watchlist.csv -o prospects_from_ats.csv
+python3 prospector.py import-csv prospects_from_ats.csv
+```
+
+It pulls live postings and fills in `open_roles`, `hard_roles`, and
+`primary_hiring_function` automatically; funding/headcount columns in the watchlist pass
+straight through. (`python3 fetch_ats.py --selftest` verifies the parsers offline.)
+
 ## A weekly routine (about 30 minutes)
 
-1. Pull a fresh batch into a CSV shaped like `data/seed_prospects.csv`
-   (from a funding feed, a few ATS boards, or a data-provider export).
-2. `python3 prospector.py import-csv new_batch.csv`  ← re-imports are safe; it updates
+1. Refresh live hiring data: `python3 fetch_ats.py my_watchlist.csv -o batch.csv`
+   (and/or add newly-funded companies from a funding feed into the same CSV shape).
+2. `python3 prospector.py import-csv batch.csv`  ← re-imports are safe; it updates
    existing companies by `name + domain` and adds new ones.
 3. `python3 prospector.py rank --tier A --limit 20` to see this week's best targets.
 4. `python3 prospector.py export week_of_2026_07_20.csv --your-name "Your Name"`.

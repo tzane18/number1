@@ -28,12 +28,47 @@ beyond Python 3.8+.
 ### What "automatic" honestly means here
 
 The **qualification, targeting, and message-writing is fully automatic** — that's the
-90% of prospecting that is tedious research and prioritization. What is *not* automated
-is scraping LinkedIn/Paraform directly: doing that violates their Terms of Service and
-gets accounts banned. Instead you feed the engine a CSV of companies from sources that
-allow it (public job boards, funding feeds, or a data provider like Apollo/Crunchbase —
-see **[SOURCES.md](SOURCES.md)**), and *you* send the LinkedIn messages it drafts. That
-keeps you compliant while the database does the heavy lifting.
+90% of prospecting that is tedious research and prioritization. And `fetch_ats.py`
+(below) **automatically pulls live open roles** from Greenhouse / Lever / Ashby to build
+your input CSV. What is *not* automated is scraping LinkedIn/Paraform directly: doing
+that violates their Terms of Service and gets accounts banned — so *you* send the
+LinkedIn messages the tool drafts. That keeps you compliant while the database does the
+heavy lifting. Other signals (funding, headcount) come from funding feeds or a data
+provider like Apollo/Crunchbase — see **[SOURCES.md](SOURCES.md)**.
+
+## Automatically pull live openings (Greenhouse / Lever / Ashby)
+
+Most startups host their jobs on Greenhouse, Lever, or Ashby, and each exposes a
+**public JSON endpoint** (the same one their careers page uses). `fetch_ats.py` reads
+those — which is allowed, unlike scraping LinkedIn — and turns them into a ready-to-import
+CSV, deriving `open_roles`, `hard_roles` (senior/technical), and `primary_hiring_function`
+straight from the live postings.
+
+```bash
+# 1. Make a watchlist of companies + which board they use (see data/watchlist.example.csv)
+#    Find the board "slug" in a company's careers URL:
+#      jobs.lever.co/SLUG   ·   boards.greenhouse.io/SLUG   ·   jobs.ashbyhq.com/SLUG
+
+# 2. Pull their live openings into a CSV
+python3 fetch_ats.py data/watchlist.example.csv -o prospects_from_ats.csv
+
+# 3. Feed it straight into the database (auto-scores)
+python3 prospector.py import-csv prospects_from_ats.csv
+python3 prospector.py rank --tier A
+
+# Offline check that the parsers work, no network needed:
+python3 fetch_ats.py --selftest
+```
+
+The watchlist's optional columns (`funding_stage`, `headcount`, `in_house_recruiters`, …)
+pass straight through, so you can layer funding-news / data-provider info onto the live
+hiring signal in one file. Re-running `fetch_ats.py` weekly keeps the hiring numbers
+fresh; `import-csv` updates existing companies in place.
+
+> **Note on this sandbox:** if you're running inside a restricted Claude Code web session,
+> outbound access to those job-board hosts may be blocked by the environment's network
+> policy (you'll see a 403). Run `fetch_ats.py` from your own machine, or use a web
+> environment whose network policy allows public sites. The `--selftest` works anywhere.
 
 ---
 
@@ -147,11 +182,13 @@ on_recruiting_marketplace, source, notes
 
 ```
 recruiting_prospector/
-├── prospector.py            # the CLI (init, import, score, rank, show, export, add, stats)
-├── scoring.py               # the ICP fit-score engine + contact recommender
-├── outreach.py              # LinkedIn message + search-URL generator
-├── schema.sql               # SQLite schema
-├── data/seed_prospects.csv  # synthetic sample prospects (replace with real data)
-├── SOURCES.md               # where to get real prospect data, compliantly
+├── prospector.py               # the CLI (init, import, score, rank, show, export, add, stats)
+├── fetch_ats.py                # pull live roles from Greenhouse/Lever/Ashby -> import CSV
+├── scoring.py                  # the ICP fit-score engine + contact recommender
+├── outreach.py                 # LinkedIn message + search-URL generator
+├── schema.sql                  # SQLite schema
+├── data/seed_prospects.csv     # synthetic sample prospects (replace with real data)
+├── data/watchlist.example.csv  # template for fetch_ats.py
+├── SOURCES.md                  # where to get real prospect data, compliantly
 └── README.md
 ```

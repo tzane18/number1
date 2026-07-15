@@ -1,0 +1,4 @@
+name,ats,token,industry,funding_stage,last_funding_date,last_funding_amount_usd,headcount,headcount_growth_6mo,in_house_recruiters,on_recruiting_marketplace
+Lever Demo (real public board),lever,leverdemo,,,,,,,,
+Acme Robotics,greenhouse,your-greenhouse-slug,Robotics,Series A,2026-05-01,15000000,40,0.35,0,1
+Beacon Data,ashby,your-ashby-slug,Data/Analytics,Seed,2026-06-01,6000000,22,0.5,0,0
