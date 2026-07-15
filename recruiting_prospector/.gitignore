@@ -1,0 +1,14 @@
+# Runtime database — regenerate with:
+#   python3 prospector.py init && python3 prospector.py import-csv data/seed_prospects.csv
+prospects.db
+prospects.db-journal
+prospects.db-wal
+prospects.db-shm
+
+# Exported outreach lists
+outreach_list.csv
+*_outreach*.csv
+
+# Python
+__pycache__/
+*.pyc
