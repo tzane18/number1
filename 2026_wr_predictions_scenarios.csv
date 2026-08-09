@@ -1,0 +1,701 @@
+Player,College,Height,Weight,College_Rec,College_Yards,College_TDs,YPG,Scenario,Draft_Round,RF_Pred_AV,XGB_Pred_AV,Avg_Pred_AV
+Marcel Williams,Akron,71.0,185.0,43.0,599.0,9.0,54.5,Round 1 (Elite Picks 1-32),1,46.2,29.6,37.9
+Kris Hutson,Arizona,71.0,174.0,58.0,754.0,11.0,68.5,Round 1 (Elite Picks 1-32),1,46.0,29.6,37.8
+Caullin Lacy,Louisville,70.0,190.0,57.0,592.0,8.0,49.3,Round 1 (Elite Picks 1-32),1,47.2,29.6,38.4
+Latrell Caples,Boise State,72.0,191.0,47.0,558.0,8.0,42.9,Round 1 (Elite Picks 1-32),1,45.2,29.6,37.4
+Romello Brinson,SMU,74.0,190.0,40.0,517.0,7.0,51.7,Round 1 (Elite Picks 1-32),1,40.6,29.9,35.2
+Jalil Farooq,Maryland,74.0,213.0,52.0,471.0,7.0,39.2,Round 1 (Elite Picks 1-32),1,40.9,29.9,35.4
+Elijah Metcalf,Southern Miss,69.0,170.0,53.0,651.0,9.0,54.2,Round 1 (Elite Picks 1-32),1,32.2,29.6,30.9
+Corey Rucker,Arkansas State,72.0,213.0,70.0,944.0,13.0,72.6,Round 1 (Elite Picks 1-32),1,33.0,24.1,28.6
+Cam Ross,Virginia,70.0,186.0,52.0,577.0,8.0,52.5,Round 1 (Elite Picks 1-32),1,29.3,24.1,26.7
+Ryan Davis,Utah,71.0,181.0,60.0,681.0,10.0,61.9,Round 1 (Elite Picks 1-32),1,29.6,24.1,26.9
+Devin Voisin,South Alabama,70.0,187.0,68.0,799.0,11.0,66.6,Round 1 (Elite Picks 1-32),1,28.0,21.0,24.5
+Trebor Pena,Penn State,70.0,186.0,44.0,419.0,6.0,34.9,Round 1 (Elite Picks 1-32),1,27.7,21.0,24.3
+Michael Jackson III,Purdue,72.0,205.0,63.0,576.0,8.0,48.0,Round 1 (Elite Picks 1-32),1,29.2,21.0,25.1
+Le'Meke Brockington,Minnesota,72.0,195.0,44.0,478.0,7.0,43.5,Round 1 (Elite Picks 1-32),1,26.6,21.0,23.8
+Eric McAlister,TCU,75.0,205.0,66.0,1097.0,16.0,91.4,Round 1 (Elite Picks 1-32),1,30.3,24.1,27.2
+Malik Rutherford,Georgia Tech,69.0,170.0,40.0,402.0,6.0,44.7,Round 1 (Elite Picks 1-32),1,24.7,21.0,22.8
+CJ Daniels,Miami,74.0,205.0,45.0,464.0,7.0,42.2,Round 1 (Elite Picks 1-32),1,26.6,21.3,24.0
+Sahmir Hagans,Duke,70.0,190.0,40.0,416.0,6.0,32.0,Round 1 (Elite Picks 1-32),1,25.7,21.0,23.4
+Jaden Bradley,UNLV,76.0,195.0,54.0,866.0,12.0,61.9,Round 1 (Elite Picks 1-32),1,29.6,20.2,24.9
+Deion Burks,Oklahoma,69.0,188.0,56.0,589.0,8.0,45.3,Round 1 (Elite Picks 1-32),1,26.3,21.0,23.6
+Skyler Bell,UConn,72.0,185.0,93.0,1130.0,16.0,94.2,Round 1 (Elite Picks 1-32),1,27.3,24.8,26.1
+Lewis Bond,Boston College,71.0,190.0,85.0,977.0,14.0,81.4,Round 1 (Elite Picks 1-32),1,25.2,24.8,25.0
+Joseph Manjack IV,TCU,75.0,205.0,42.0,556.0,8.0,50.5,Round 1 (Elite Picks 1-32),1,23.7,20.2,22.0
+Keagan Johnson,New Mexico,72.0,199.0,52.0,620.0,9.0,62.0,Round 1 (Elite Picks 1-32),1,23.4,26.5,25.0
+Aaron Turner,Rice,68.0,184.0,54.0,396.0,6.0,30.5,Round 1 (Elite Picks 1-32),1,24.4,26.5,25.4
+Jahmal Edrine,Virginia,75.0,221.0,44.0,549.0,8.0,39.2,Round 1 (Elite Picks 1-32),1,22.4,21.1,21.7
+O'Mega Blake,Arkansas,74.0,182.0,54.0,714.0,10.0,59.5,Round 1 (Elite Picks 1-32),1,26.6,21.1,23.8
+Anthony Smith,East Carolina,75.0,189.0,59.0,947.0,14.0,72.8,Round 1 (Elite Picks 1-32),1,24.8,16.1,20.5
+Germie Bernard,Alabama,73.0,204.0,63.0,866.0,12.0,61.9,Round 1 (Elite Picks 1-32),1,20.8,16.1,18.5
+Kevin Coleman Jr.,Missouri,71.0,180.0,66.0,736.0,11.0,61.3,Round 1 (Elite Picks 1-32),1,20.1,21.5,20.8
+Emmanuel Henderson Jr.,Kansas,73.0,190.0,43.0,746.0,11.0,62.2,Round 1 (Elite Picks 1-32),1,20.4,16.1,18.2
+Jordan Hudson,SMU,73.0,200.0,57.0,722.0,10.0,65.6,Round 1 (Elite Picks 1-32),1,18.1,8.8,13.4
+Shaleak Knotts,Maryland,75.0,194.0,42.0,687.0,10.0,62.5,Round 1 (Elite Picks 1-32),1,18.0,8.8,13.4
+Kendrick Law,Kentucky,72.0,205.0,52.0,569.0,8.0,51.7,Round 1 (Elite Picks 1-32),1,16.1,5.3,10.7
+Shazz Preston,Tulane,72.0,206.0,40.0,584.0,8.0,41.7,Round 1 (Elite Picks 1-32),1,17.2,5.3,11.2
+Brenen Thompson,Mississippi State,69.0,170.0,53.0,979.0,14.0,75.3,Round 1 (Elite Picks 1-32),1,17.6,5.3,11.4
+Joshua Meredith,Washington State,72.0,193.0,55.0,722.0,10.0,55.5,Round 1 (Elite Picks 1-32),1,16.0,5.3,10.6
+Harrison Wallace III,Ole Miss,73.0,195.0,60.0,910.0,13.0,65.0,Round 1 (Elite Picks 1-32),1,15.6,5.3,10.4
+Omari Kelly,Michigan State,72.0,188.0,44.0,602.0,9.0,50.2,Round 1 (Elite Picks 1-32),1,15.4,5.3,10.3
+K.D. Hutchinson,Western Kentucky,68.0,178.0,64.0,636.0,9.0,48.9,Round 1 (Elite Picks 1-32),1,15.1,5.3,10.2
+Kyre Duplessis,Delaware,71.0,190.0,59.0,831.0,12.0,63.9,Round 1 (Elite Picks 1-32),1,15.2,5.3,10.2
+Christian Moss,Kennesaw State,75.0,199.0,41.0,643.0,9.0,53.6,Round 1 (Elite Picks 1-32),1,14.8,5.3,10.0
+De'Zhaun Stribling,Ole Miss,74.0,200.0,51.0,722.0,10.0,48.1,Round 1 (Elite Picks 1-32),1,14.6,5.3,10.0
+Eric Rivers,Georgia Tech,71.0,180.0,43.0,631.0,9.0,52.6,Round 1 (Elite Picks 1-32),1,14.6,5.3,10.0
+Chase Roberts,BYU,76.0,210.0,54.0,795.0,11.0,61.2,Round 1 (Elite Picks 1-32),1,15.6,5.3,10.4
+Omar Cooper Jr.,Indiana,72.0,201.0,59.0,814.0,12.0,58.1,Round 1 (Elite Picks 1-32),1,16.3,5.3,10.8
+Cooper Barkate,Duke,73.0,195.0,69.0,1007.0,14.0,71.9,Round 1 (Elite Picks 1-32),1,17.7,5.3,11.5
+Camden Brown,Georgia Southern,74.0,200.0,60.0,969.0,14.0,74.5,Round 1 (Elite Picks 1-32),1,18.3,5.3,11.8
+Hank Beatty,Illinois,71.0,185.0,69.0,863.0,12.0,66.4,Round 1 (Elite Picks 1-32),1,15.7,5.3,10.5
+Denzel Boston,Washington,76.0,209.0,58.0,786.0,11.0,71.5,Round 1 (Elite Picks 1-32),1,14.8,5.3,10.0
+Jordan Dwyer,TCU,72.0,195.0,51.0,626.0,9.0,52.2,Round 1 (Elite Picks 1-32),1,15.1,5.3,10.2
+Jayshon Platt,Florida Atlantic,73.0,195.0,44.0,681.0,10.0,61.9,Round 1 (Elite Picks 1-32),1,13.8,5.3,9.5
+Junior Vandeross III,Toledo,68.0,182.0,78.0,921.0,13.0,70.8,Round 1 (Elite Picks 1-32),1,16.3,5.3,10.8
+Kam Perry,Miami (OH),69.0,168.0,41.0,901.0,13.0,69.3,Round 1 (Elite Picks 1-32),1,15.0,5.3,10.2
+Reggie Virgil,Texas Tech,75.0,190.0,53.0,658.0,9.0,47.0,Round 1 (Elite Picks 1-32),1,14.6,5.3,10.0
+Brock Spalding,East Carolina,71.0,193.0,41.0,555.0,8.0,42.7,Round 1 (Elite Picks 1-32),1,12.5,5.3,8.9
+Braden Pegan,Utah State,75.0,210.0,59.0,829.0,12.0,69.1,Round 1 (Elite Picks 1-32),1,12.6,5.3,8.9
+Octavian Smith Jr.,Maryland,72.0,182.0,42.0,530.0,8.0,44.2,Round 1 (Elite Picks 1-32),1,13.5,5.3,9.4
+Cam Pickett,Kansas,72.0,200.0,45.0,462.0,7.0,38.5,Round 1 (Elite Picks 1-32),1,12.3,5.3,8.8
+Caleb Douglas,Texas Tech,76.0,210.0,49.0,731.0,10.0,56.2,Round 1 (Elite Picks 1-32),1,13.8,5.3,9.5
+Langston Lewis,Central Michigan,72.0,195.0,41.0,454.0,6.0,37.8,Round 1 (Elite Picks 1-32),1,12.3,5.3,8.8
+Nik McMillan,Buffalo,73.0,187.0,60.0,901.0,13.0,75.1,Round 1 (Elite Picks 1-32),1,14.3,5.3,9.8
+Chris Bell,Louisville,74.0,220.0,72.0,924.0,13.0,84.0,Round 1 (Elite Picks 1-32),1,11.8,5.3,8.6
+Zachariah Branch,Georgia,70.0,180.0,78.0,794.0,11.0,56.7,Round 1 (Elite Picks 1-32),1,13.6,5.3,9.5
+KC Concepcion,Texas A&M,71.0,190.0,56.0,814.0,12.0,62.6,Round 1 (Elite Picks 1-32),1,13.0,5.3,9.1
+Johntay Cook,Syracuse,72.0,198.0,42.0,518.0,7.0,47.1,Round 1 (Elite Picks 1-32),1,11.5,5.3,8.4
+Makai Lemon,USC,71.0,195.0,74.0,1110.0,16.0,92.5,Round 1 (Elite Picks 1-32),1,16.5,5.3,10.9
+Ja'Kobi Lane,USC,76.0,200.0,48.0,735.0,10.0,66.8,Round 1 (Elite Picks 1-32),1,13.9,5.3,9.6
+Omarion Miller,Colorado,74.0,210.0,39.0,680.0,10.0,61.8,Round 1 (Elite Picks 1-32),1,11.4,5.3,8.3
+Cayden Lee,Ole Miss,71.0,175.0,42.0,581.0,8.0,38.7,Round 1 (Elite Picks 1-32),1,13.0,5.3,9.1
+Duce Robinson,Florida State,78.0,222.0,51.0,991.0,14.0,82.6,Round 1 (Elite Picks 1-32),1,17.0,5.3,11.2
+Carnell Tate,Ohio State,75.0,195.0,49.0,823.0,12.0,74.8,Round 1 (Elite Picks 1-32),1,12.7,5.3,9.0
+Asaad Waseem,Florida Atlantic,71.0,175.0,66.0,658.0,9.0,54.8,Round 1 (Elite Picks 1-32),1,13.0,5.3,9.1
+Raylen Sharpe,Arkansas,69.0,165.0,40.0,572.0,8.0,47.7,Round 1 (Elite Picks 1-32),1,13.1,5.3,9.2
+Trond Grizzell,California,76.0,205.0,56.0,795.0,11.0,66.2,Round 1 (Elite Picks 1-32),1,14.0,5.3,9.6
+Jalen Walthall,Incarnate Word,73.0,180.0,61.0,791.0,11.0,87.9,Round 1 (Elite Picks 1-32),1,13.2,5.3,9.3
+Cody Jackson,Tarleton State,72.0,185.0,47.0,636.0,9.0,57.8,Round 1 (Elite Picks 1-32),1,11.5,5.3,8.4
+Gabriel Benyard,Kennesaw State,70.0,185.0,53.0,725.0,10.0,51.8,Round 1 (Elite Picks 1-32),1,12.1,5.3,8.7
+Raphael Williams Jr.,Pittsburgh,70.0,165.0,48.0,689.0,10.0,53.0,Round 1 (Elite Picks 1-32),1,12.6,8.9,10.7
+Myles Butler,Middle Tennessee,74.0,205.0,48.0,444.0,6.0,40.4,Round 1 (Elite Picks 1-32),1,11.2,8.9,10.1
+Josh Cameron,Baylor,73.0,224.0,59.0,664.0,9.0,55.3,Round 1 (Elite Picks 1-32),1,11.4,6.6,9.0
+Trent Walker,Oregon State,74.0,194.0,59.0,758.0,11.0,68.9,Round 1 (Elite Picks 1-32),1,11.6,8.9,10.3
+Ashtyn Hawkins,Baylor,70.0,168.0,52.0,616.0,9.0,51.3,Round 1 (Elite Picks 1-32),1,12.7,8.9,10.8
+Jordyn Tyson,Arizona State,74.0,200.0,59.0,701.0,10.0,77.9,Round 1 (Elite Picks 1-32),1,12.2,8.9,10.6
+Parker Kingston,BYU,71.0,185.0,66.0,926.0,13.0,66.1,Round 1 (Elite Picks 1-32),1,13.1,7.9,10.5
+Peyton Kramer,Tarleton State,71.0,175.0,47.0,750.0,11.0,57.7,Round 1 (Elite Picks 1-32),1,13.4,7.9,10.7
+Gavin Freeman,Oklahoma State,68.0,185.0,40.0,323.0,5.0,32.3,Round 1 (Elite Picks 1-32),1,11.5,5.6,8.5
+Jacquon Gibson,Massachusetts,71.0,195.0,61.0,578.0,8.0,64.2,Round 1 (Elite Picks 1-32),1,11.6,7.9,9.7
+Marcus Sanders Jr.,Georgia Southern,73.0,190.0,46.0,677.0,10.0,52.1,Round 1 (Elite Picks 1-32),1,12.7,7.9,10.3
+Dalen Cobb,Georgia Southern,69.0,180.0,56.0,513.0,7.0,46.6,Round 1 (Elite Picks 1-32),1,12.4,7.9,10.2
+Anthony Evans III,Mississippi State,71.0,180.0,63.0,785.0,11.0,65.4,Round 1 (Elite Picks 1-32),1,12.2,7.9,10.1
+Trell Harris,Virginia,72.0,200.0,58.0,833.0,12.0,64.1,Round 1 (Elite Picks 1-32),1,12.5,7.9,10.2
+Cyrus Allen,Cincinnati,71.0,180.0,44.0,567.0,8.0,43.6,Round 1 (Elite Picks 1-32),1,10.7,7.9,9.3
+Iverson Hooks,UAB,70.0,175.0,69.0,869.0,12.0,72.4,Round 1 (Elite Picks 1-32),1,11.7,7.9,9.8
+Easton Messer,Florida Atlantic,69.0,190.0,89.0,955.0,14.0,79.6,Round 1 (Elite Picks 1-32),1,10.4,5.6,8.0
+Coy Eakin,Texas Tech,74.0,210.0,45.0,552.0,8.0,42.5,Round 1 (Elite Picks 1-32),1,8.0,7.8,7.9
+David Amador II,UTSA,72.0,195.0,40.0,400.0,6.0,36.4,Round 1 (Elite Picks 1-32),1,9.3,7.9,8.6
+Jordan Napier,San Diego State,73.0,195.0,47.0,633.0,9.0,63.3,Round 1 (Elite Picks 1-32),1,9.5,6.1,7.8
+Chase Hendricks,Ohio,72.0,200.0,73.0,1081.0,15.0,90.1,Round 1 (Elite Picks 1-32),1,8.8,6.1,7.4
+Kenny Johnson,Pittsburgh,73.0,205.0,43.0,597.0,9.0,49.8,Round 1 (Elite Picks 1-32),1,7.3,6.1,6.7
+Ian Strong,Rutgers,75.0,215.0,51.0,722.0,10.0,72.2,Round 1 (Elite Picks 1-32),1,7.4,6.1,6.7
+Anthony Eager,South Alabama,73.0,182.0,42.0,358.0,5.0,29.8,Round 1 (Elite Picks 1-32),1,8.4,6.1,7.3
+Devin McCuin,UTSA,72.0,195.0,60.0,644.0,9.0,53.7,Round 1 (Elite Picks 1-32),1,8.3,6.1,7.2
+Amare Thomas,Houston,72.0,205.0,58.0,758.0,11.0,58.3,Round 1 (Elite Picks 1-32),1,6.7,3.7,5.2
+Chris Dawn Jr.,Texas State,67.0,170.0,28.0,622.0,9.0,103.7,Round 1 (Elite Picks 1-32),1,9.8,6.1,8.0
+Junior Sherrill,Vanderbilt,71.0,188.0,50.0,721.0,10.0,55.5,Round 1 (Elite Picks 1-32),1,7.9,6.8,7.4
+Jaron Tibbs,Kansas State,74.0,212.0,46.0,582.0,8.0,48.5,Round 1 (Elite Picks 1-32),1,6.9,4.5,5.7
+Nyziah Hunter,Nebraska,73.0,205.0,43.0,617.0,9.0,51.4,Round 1 (Elite Picks 1-32),1,7.2,6.8,7.0
+Mario Craver,Texas A&M,69.0,165.0,59.0,911.0,13.0,75.9,Round 1 (Elite Picks 1-32),1,9.2,6.8,8.0
+Cam Coleman,Auburn,75.0,201.0,53.0,682.0,10.0,56.8,Round 1 (Elite Picks 1-32),1,9.0,6.8,7.9
+Mike Matthews,Tennessee,73.0,200.0,51.0,796.0,11.0,61.2,Round 1 (Elite Picks 1-32),1,8.6,6.8,7.7
+Nick Marsh,Michigan State,75.0,203.0,54.0,625.0,9.0,52.1,Round 1 (Elite Picks 1-32),1,9.0,6.8,7.9
+Jordan Shipp,North Carolina,74.0,190.0,55.0,560.0,8.0,46.7,Round 1 (Elite Picks 1-32),1,8.6,6.8,7.7
+Jeremiah Smith,Ohio State,75.0,223.0,82.0,1171.0,17.0,90.1,Round 1 (Elite Picks 1-32),1,7.0,4.5,5.8
+Isaiah Sategna,Oklahoma,70.0,182.0,61.0,781.0,11.0,65.1,Round 1 (Elite Picks 1-32),1,8.4,6.8,7.6
+Javen Nicholas,Charlotte,69.0,190.0,53.0,613.0,9.0,51.1,Round 1 (Elite Picks 1-32),1,8.2,4.5,6.4
+Antonio Williams,Clemson,71.0,190.0,51.0,526.0,8.0,65.8,Round 1 (Elite Picks 1-32),1,7.8,6.8,7.3
+Eli Heidenreich,Navy,72.0,206.0,49.0,924.0,13.0,71.1,Round 1 (Elite Picks 1-32),1,6.5,4.5,5.5
+DJ Epps,Troy,73.0,185.0,44.0,449.0,6.0,40.8,Round 1 (Elite Picks 1-32),1,9.3,6.8,8.1
+Kenny Odom,UTEP,70.0,170.0,48.0,366.0,5.0,36.6,Round 1 (Elite Picks 1-32),1,7.8,6.8,7.3
+Jacory Barney Jr.,Nebraska,72.0,170.0,42.0,495.0,7.0,38.1,Round 1 (Elite Picks 1-32),1,8.2,6.8,7.5
+Alex Perry,Florida International,77.0,210.0,50.0,697.0,10.0,53.6,Round 1 (Elite Picks 1-32),1,6.0,6.8,6.4
+Pofele Ashlock,Hawai'i,74.0,185.0,73.0,808.0,12.0,67.3,Round 1 (Elite Picks 1-32),1,7.7,6.8,7.2
+Terrell Anderson,NC State,74.0,204.0,38.0,622.0,9.0,47.8,Round 1 (Elite Picks 1-32),1,6.9,6.8,6.9
+KJ Duff,Rutgers,78.0,220.0,61.0,1102.0,16.0,91.8,Round 1 (Elite Picks 1-32),1,6.4,4.0,5.2
+Victor Snow,Buffalo,68.0,168.0,59.0,783.0,11.0,65.2,Round 1 (Elite Picks 1-32),1,8.0,4.1,6.0
+C.J. Williams,Stanford,73.0,205.0,55.0,635.0,9.0,52.9,Round 1 (Elite Picks 1-32),1,5.1,4.0,4.6
+Chauncy Cobb,Arkansas State,66.0,163.0,71.0,806.0,12.0,62.0,Round 1 (Elite Picks 1-32),1,7.9,4.1,6.0
+Elijah Sarratt,Indiana,74.0,209.0,55.0,699.0,10.0,58.2,Round 1 (Elite Picks 1-32),1,4.9,4.0,4.5
+Chris Brazzell II,Tennessee,77.0,200.0,61.0,968.0,14.0,80.7,Round 1 (Elite Picks 1-32),1,7.1,4.1,5.6
+Josiah Freeman,Fresno State,75.0,196.0,50.0,596.0,9.0,49.7,Round 1 (Elite Picks 1-32),1,6.7,4.1,5.4
+Demarcus Lacey,Marshall,72.0,190.0,59.0,633.0,9.0,57.5,Round 1 (Elite Picks 1-32),1,6.7,4.1,5.4
+Eric Singleton Jr.,Auburn,70.0,180.0,52.0,487.0,7.0,44.3,Round 1 (Elite Picks 1-32),1,6.6,4.1,5.3
+Chauncey Spikes,North Carolina Central,74.0,200.0,42.0,542.0,8.0,49.3,Round 1 (Elite Picks 1-32),1,6.3,4.1,5.2
+Jackson Harris,Hawai'i,75.0,205.0,40.0,624.0,9.0,62.4,Round 1 (Elite Picks 1-32),1,5.6,4.0,4.8
+Jayce Brown,Kansas State,72.0,179.0,39.0,655.0,9.0,72.8,Round 1 (Elite Picks 1-32),1,6.9,4.1,5.5
+Hunter Summers,Arkansas State,75.0,161.0,42.0,475.0,7.0,36.5,Round 1 (Elite Picks 1-32),1,7.5,4.1,5.8
+Yamir Knight,SMU,68.0,186.0,50.0,564.0,8.0,47.0,Round 1 (Elite Picks 1-32),1,7.6,4.1,5.8
+Keshaun Singleton,South Florida,75.0,215.0,44.0,752.0,11.0,62.7,Round 1 (Elite Picks 1-32),1,4.7,4.0,4.4
+Cole Weaver,Miami (OH),77.0,220.0,41.0,588.0,8.0,49.0,Round 1 (Elite Picks 1-32),1,5.0,4.0,4.5
+Kwazi Gilmer,UCLA,74.0,190.0,47.0,475.0,7.0,39.6,Round 1 (Elite Picks 1-32),1,6.6,4.1,5.3
+Braylon Staley,Tennessee,72.0,190.0,65.0,782.0,11.0,60.2,Round 1 (Elite Picks 1-32),1,7.1,4.1,5.6
+Andrew Marsh,Michigan,72.0,190.0,43.0,645.0,9.0,71.7,Round 1 (Elite Picks 1-32),1,7.1,4.1,5.6
+Ryan Williams,Alabama,72.0,178.0,48.0,681.0,10.0,56.8,Round 1 (Elite Picks 1-32),1,7.2,4.1,5.6
+Wyatt Young,North Texas,72.0,195.0,67.0,1103.0,16.0,78.8,Round 1 (Elite Picks 1-32),1,7.5,4.1,5.8
+Miles Coleman,North Texas,66.0,159.0,46.0,499.0,7.0,41.6,Round 1 (Elite Picks 1-32),1,7.8,4.1,5.9
+Jordan Faison,Notre Dame,70.0,183.0,45.0,587.0,8.0,48.9,Round 1 (Elite Picks 1-32),1,6.7,4.1,5.4
+Duane Thomas Jr.,UCF,68.0,175.0,53.0,554.0,8.0,46.2,Round 1 (Elite Picks 1-32),1,7.6,4.1,5.8
+Deuce Alexander,Ole Miss,72.0,175.0,43.0,596.0,9.0,39.7,Round 1 (Elite Picks 1-32),1,7.5,4.1,5.8
+Beau Sparks,Texas State,71.0,175.0,81.0,1025.0,15.0,78.8,Round 1 (Elite Picks 1-32),1,8.2,4.1,6.2
+Danny Scudero,San José State,69.0,174.0,85.0,1189.0,17.0,99.1,Round 1 (Elite Picks 1-32),1,8.1,4.1,6.1
+DT Sheffield,Rutgers,70.0,175.0,42.0,551.0,8.0,45.9,Round 1 (Elite Picks 1-32),1,7.0,4.1,5.5
+Jaden Barnes,App State,68.0,170.0,51.0,523.0,7.0,58.1,Round 1 (Elite Picks 1-32),1,7.4,4.1,5.8
+Griffin Wilde,Northwestern,74.0,200.0,60.0,687.0,10.0,57.2,Round 1 (Elite Picks 1-32),1,6.1,4.1,5.1
+Jacob De Jesus,California,67.0,170.0,102.0,965.0,14.0,74.2,Round 1 (Elite Picks 1-32),1,7.7,4.1,5.9
+Yannick Smith,East Carolina,75.0,207.0,40.0,503.0,7.0,50.3,Round 1 (Elite Picks 1-32),1,4.8,4.0,4.4
+David Wells Jr.,Oregon State,73.0,183.0,42.0,468.0,7.0,42.5,Round 1 (Elite Picks 1-32),1,6.2,4.1,5.1
+Javon Robinson,Georgia State,67.0,155.0,54.0,585.0,8.0,48.8,Round 1 (Elite Picks 1-32),1,7.5,4.1,5.8
+Donovan Faupel,New Mexico State,73.0,195.0,51.0,548.0,8.0,60.9,Round 1 (Elite Picks 1-32),1,6.3,4.1,5.2
+Malachi Toney,Miami,71.0,,91.0,965.0,14.0,64.3,Round 1 (Elite Picks 1-32),1,6.5,4.0,5.3
+Zion Booker,Tulsa,70.0,185.0,42.0,392.0,6.0,49.0,Round 1 (Elite Picks 1-32),1,6.0,4.1,5.1
+Na'eem Abdul-Rahim Gladding,Old Dominion,72.0,198.0,50.0,672.0,10.0,51.7,Round 1 (Elite Picks 1-32),1,6.2,4.1,5.1
+Ryan Wingo,Texas,74.0,214.0,50.0,712.0,10.0,54.8,Round 1 (Elite Picks 1-32),1,4.8,4.0,4.4
+T.J. Moore,Clemson,75.0,200.0,50.0,745.0,11.0,62.1,Round 1 (Elite Picks 1-32),1,6.5,4.1,5.3
+Que'Sean Brown,Duke,68.0,165.0,59.0,712.0,10.0,50.9,Round 1 (Elite Picks 1-32),1,7.4,4.1,5.7
+Leland Smith,San José State,76.0,215.0,42.0,650.0,9.0,59.1,Round 1 (Elite Picks 1-32),1,5.0,4.0,4.5
+Kyri Shoels,San José State,72.0,182.0,57.0,737.0,11.0,61.4,Round 1 (Elite Picks 1-32),1,6.9,4.1,5.5
+Ted Hurst,Georgia State,75.0,185.0,66.0,949.0,14.0,86.3,Round 1 (Elite Picks 1-32),1,6.9,4.1,5.5
+Tony Freeman,Washington State,68.0,171.0,53.0,531.0,8.0,40.8,Round 1 (Elite Picks 1-32),1,7.5,4.1,5.8
+Sean Wilson,Delaware,72.0,185.0,63.0,806.0,12.0,62.0,Round 1 (Elite Picks 1-32),1,7.3,4.1,5.7
+Matthew Henry,Western Kentucky,71.0,176.0,52.0,833.0,12.0,64.1,Round 1 (Elite Picks 1-32),1,7.8,4.1,5.9
+Tre Richardson,Vanderbilt,70.0,175.0,40.0,527.0,8.0,47.9,Round 1 (Elite Picks 1-32),1,7.2,4.1,5.6
+Ja'Cory Thomas,Old Dominion,75.0,210.0,39.0,673.0,10.0,56.1,Round 1 (Elite Picks 1-32),1,5.6,4.0,4.8
+Cameron Dorner,North Texas,73.0,195.0,49.0,734.0,10.0,52.4,Round 1 (Elite Picks 1-32),1,6.8,4.1,5.4
+DeAree Rogers,Northern Illinois,71.0,200.0,45.0,492.0,7.0,41.0,Round 1 (Elite Picks 1-32),1,7.1,4.1,5.6
+Marcel Williams,Akron,71.0,185.0,43.0,599.0,9.0,54.5,Round 2 (Picks 33-64),2,15.8,8.5,12.2
+Kris Hutson,Arizona,71.0,174.0,58.0,754.0,11.0,68.5,Round 2 (Picks 33-64),2,15.8,5.3,10.6
+Caullin Lacy,Louisville,70.0,190.0,57.0,592.0,8.0,49.3,Round 2 (Picks 33-64),2,15.1,5.3,10.2
+Latrell Caples,Boise State,72.0,191.0,47.0,558.0,8.0,42.9,Round 2 (Picks 33-64),2,15.3,5.3,10.3
+Romello Brinson,SMU,74.0,190.0,40.0,517.0,7.0,51.7,Round 2 (Picks 33-64),2,14.2,5.3,9.7
+Jalil Farooq,Maryland,74.0,213.0,52.0,471.0,7.0,39.2,Round 2 (Picks 33-64),2,13.6,5.3,9.4
+Elijah Metcalf,Southern Miss,69.0,170.0,53.0,651.0,9.0,54.2,Round 2 (Picks 33-64),2,14.5,5.3,9.9
+Corey Rucker,Arkansas State,72.0,213.0,70.0,944.0,13.0,72.6,Round 2 (Picks 33-64),2,17.1,5.3,11.2
+Cam Ross,Virginia,70.0,186.0,52.0,577.0,8.0,52.5,Round 2 (Picks 33-64),2,13.3,5.3,9.3
+Ryan Davis,Utah,71.0,181.0,60.0,681.0,10.0,61.9,Round 2 (Picks 33-64),2,13.2,5.3,9.2
+Devin Voisin,South Alabama,70.0,187.0,68.0,799.0,11.0,66.6,Round 2 (Picks 33-64),2,13.7,5.3,9.5
+Trebor Pena,Penn State,70.0,186.0,44.0,419.0,6.0,34.9,Round 2 (Picks 33-64),2,13.7,5.3,9.5
+Michael Jackson III,Purdue,72.0,205.0,63.0,576.0,8.0,48.0,Round 2 (Picks 33-64),2,14.9,5.3,10.1
+Le'Meke Brockington,Minnesota,72.0,195.0,44.0,478.0,7.0,43.5,Round 2 (Picks 33-64),2,13.9,5.3,9.6
+Eric McAlister,TCU,75.0,205.0,66.0,1097.0,16.0,91.4,Round 2 (Picks 33-64),2,19.2,5.3,12.2
+Malik Rutherford,Georgia Tech,69.0,170.0,40.0,402.0,6.0,44.7,Round 2 (Picks 33-64),2,13.5,5.3,9.4
+CJ Daniels,Miami,74.0,205.0,45.0,464.0,7.0,42.2,Round 2 (Picks 33-64),2,14.0,5.3,9.6
+Sahmir Hagans,Duke,70.0,190.0,40.0,416.0,6.0,32.0,Round 2 (Picks 33-64),2,15.0,5.3,10.1
+Jaden Bradley,UNLV,76.0,195.0,54.0,866.0,12.0,61.9,Round 2 (Picks 33-64),2,16.6,5.3,10.9
+Deion Burks,Oklahoma,69.0,188.0,56.0,589.0,8.0,45.3,Round 2 (Picks 33-64),2,14.5,5.3,9.9
+Skyler Bell,UConn,72.0,185.0,93.0,1130.0,16.0,94.2,Round 2 (Picks 33-64),2,19.6,5.3,12.5
+Lewis Bond,Boston College,71.0,190.0,85.0,977.0,14.0,81.4,Round 2 (Picks 33-64),2,15.0,5.3,10.2
+Joseph Manjack IV,TCU,75.0,205.0,42.0,556.0,8.0,50.5,Round 2 (Picks 33-64),2,11.6,5.3,8.4
+Keagan Johnson,New Mexico,72.0,199.0,52.0,620.0,9.0,62.0,Round 2 (Picks 33-64),2,10.9,5.3,8.1
+Aaron Turner,Rice,68.0,184.0,54.0,396.0,6.0,30.5,Round 2 (Picks 33-64),2,10.9,5.3,8.1
+Jahmal Edrine,Virginia,75.0,221.0,44.0,549.0,8.0,39.2,Round 2 (Picks 33-64),2,11.2,5.3,8.2
+O'Mega Blake,Arkansas,74.0,182.0,54.0,714.0,10.0,59.5,Round 2 (Picks 33-64),2,14.2,5.3,9.8
+Anthony Smith,East Carolina,75.0,189.0,59.0,947.0,14.0,72.8,Round 2 (Picks 33-64),2,15.7,5.3,10.5
+Germie Bernard,Alabama,73.0,204.0,63.0,866.0,12.0,61.9,Round 2 (Picks 33-64),2,12.5,5.3,8.9
+Kevin Coleman Jr.,Missouri,71.0,180.0,66.0,736.0,11.0,61.3,Round 2 (Picks 33-64),2,13.2,5.3,9.3
+Emmanuel Henderson Jr.,Kansas,73.0,190.0,43.0,746.0,11.0,62.2,Round 2 (Picks 33-64),2,13.1,5.3,9.2
+Jordan Hudson,SMU,73.0,200.0,57.0,722.0,10.0,65.6,Round 2 (Picks 33-64),2,11.4,5.3,8.4
+Shaleak Knotts,Maryland,75.0,194.0,42.0,687.0,10.0,62.5,Round 2 (Picks 33-64),2,13.8,5.3,9.6
+Kendrick Law,Kentucky,72.0,205.0,52.0,569.0,8.0,51.7,Round 2 (Picks 33-64),2,10.2,5.3,7.7
+Shazz Preston,Tulane,72.0,206.0,40.0,584.0,8.0,41.7,Round 2 (Picks 33-64),2,11.2,5.3,8.2
+Brenen Thompson,Mississippi State,69.0,170.0,53.0,979.0,14.0,75.3,Round 2 (Picks 33-64),2,15.0,5.3,10.2
+Joshua Meredith,Washington State,72.0,193.0,55.0,722.0,10.0,55.5,Round 2 (Picks 33-64),2,12.1,5.3,8.7
+Harrison Wallace III,Ole Miss,73.0,195.0,60.0,910.0,13.0,65.0,Round 2 (Picks 33-64),2,12.6,5.3,9.0
+Omari Kelly,Michigan State,72.0,188.0,44.0,602.0,9.0,50.2,Round 2 (Picks 33-64),2,12.0,5.3,8.6
+K.D. Hutchinson,Western Kentucky,68.0,178.0,64.0,636.0,9.0,48.9,Round 2 (Picks 33-64),2,11.4,5.3,8.4
+Kyre Duplessis,Delaware,71.0,190.0,59.0,831.0,12.0,63.9,Round 2 (Picks 33-64),2,12.2,5.3,8.7
+Christian Moss,Kennesaw State,75.0,199.0,41.0,643.0,9.0,53.6,Round 2 (Picks 33-64),2,12.8,5.3,9.0
+De'Zhaun Stribling,Ole Miss,74.0,200.0,51.0,722.0,10.0,48.1,Round 2 (Picks 33-64),2,12.5,5.3,8.9
+Eric Rivers,Georgia Tech,71.0,180.0,43.0,631.0,9.0,52.6,Round 2 (Picks 33-64),2,12.4,5.3,8.9
+Chase Roberts,BYU,76.0,210.0,54.0,795.0,11.0,61.2,Round 2 (Picks 33-64),2,11.9,5.3,8.6
+Omar Cooper Jr.,Indiana,72.0,201.0,59.0,814.0,12.0,58.1,Round 2 (Picks 33-64),2,11.2,5.3,8.3
+Cooper Barkate,Duke,73.0,195.0,69.0,1007.0,14.0,71.9,Round 2 (Picks 33-64),2,13.5,8.9,11.2
+Camden Brown,Georgia Southern,74.0,200.0,60.0,969.0,14.0,74.5,Round 2 (Picks 33-64),2,14.1,8.9,11.5
+Hank Beatty,Illinois,71.0,185.0,69.0,863.0,12.0,66.4,Round 2 (Picks 33-64),2,11.9,8.9,10.4
+Denzel Boston,Washington,76.0,209.0,58.0,786.0,11.0,71.5,Round 2 (Picks 33-64),2,11.8,8.9,10.4
+Jordan Dwyer,TCU,72.0,195.0,51.0,626.0,9.0,52.2,Round 2 (Picks 33-64),2,11.4,8.9,10.2
+Jayshon Platt,Florida Atlantic,73.0,195.0,44.0,681.0,10.0,61.9,Round 2 (Picks 33-64),2,11.2,8.9,10.0
+Junior Vandeross III,Toledo,68.0,182.0,78.0,921.0,13.0,70.8,Round 2 (Picks 33-64),2,12.0,5.6,8.8
+Kam Perry,Miami (OH),69.0,168.0,41.0,901.0,13.0,69.3,Round 2 (Picks 33-64),2,13.6,7.9,10.8
+Reggie Virgil,Texas Tech,75.0,190.0,53.0,658.0,9.0,47.0,Round 2 (Picks 33-64),2,13.6,7.9,10.7
+Brock Spalding,East Carolina,71.0,193.0,41.0,555.0,8.0,42.7,Round 2 (Picks 33-64),2,11.2,7.9,9.5
+Braden Pegan,Utah State,75.0,210.0,59.0,829.0,12.0,69.1,Round 2 (Picks 33-64),2,12.2,7.8,10.0
+Octavian Smith Jr.,Maryland,72.0,182.0,42.0,530.0,8.0,44.2,Round 2 (Picks 33-64),2,11.5,7.9,9.7
+Cam Pickett,Kansas,72.0,200.0,45.0,462.0,7.0,38.5,Round 2 (Picks 33-64),2,10.6,7.9,9.2
+Caleb Douglas,Texas Tech,76.0,210.0,49.0,731.0,10.0,56.2,Round 2 (Picks 33-64),2,13.0,7.8,10.4
+Langston Lewis,Central Michigan,72.0,195.0,41.0,454.0,6.0,37.8,Round 2 (Picks 33-64),2,10.1,7.9,9.0
+Nik McMillan,Buffalo,73.0,187.0,60.0,901.0,13.0,75.1,Round 2 (Picks 33-64),2,10.6,7.9,9.2
+Chris Bell,Louisville,74.0,220.0,72.0,924.0,13.0,84.0,Round 2 (Picks 33-64),2,7.3,5.5,6.4
+Zachariah Branch,Georgia,70.0,180.0,78.0,794.0,11.0,56.7,Round 2 (Picks 33-64),2,10.3,7.9,9.1
+KC Concepcion,Texas A&M,71.0,190.0,56.0,814.0,12.0,62.6,Round 2 (Picks 33-64),2,9.1,7.9,8.5
+Johntay Cook,Syracuse,72.0,198.0,42.0,518.0,7.0,47.1,Round 2 (Picks 33-64),2,7.4,6.1,6.8
+Makai Lemon,USC,71.0,195.0,74.0,1110.0,16.0,92.5,Round 2 (Picks 33-64),2,8.6,6.1,7.3
+Ja'Kobi Lane,USC,76.0,200.0,48.0,735.0,10.0,66.8,Round 2 (Picks 33-64),2,9.7,6.1,7.9
+Omarion Miller,Colorado,74.0,210.0,39.0,680.0,10.0,61.8,Round 2 (Picks 33-64),2,6.9,6.1,6.5
+Cayden Lee,Ole Miss,71.0,175.0,42.0,581.0,8.0,38.7,Round 2 (Picks 33-64),2,8.5,6.1,7.3
+Duce Robinson,Florida State,78.0,222.0,51.0,991.0,14.0,82.6,Round 2 (Picks 33-64),2,8.8,6.1,7.4
+Carnell Tate,Ohio State,75.0,195.0,49.0,823.0,12.0,74.8,Round 2 (Picks 33-64),2,9.4,6.1,7.8
+Asaad Waseem,Florida Atlantic,71.0,175.0,66.0,658.0,9.0,54.8,Round 2 (Picks 33-64),2,8.4,6.1,7.3
+Raylen Sharpe,Arkansas,69.0,165.0,40.0,572.0,8.0,47.7,Round 2 (Picks 33-64),2,8.4,6.8,7.6
+Trond Grizzell,California,76.0,205.0,56.0,795.0,11.0,66.2,Round 2 (Picks 33-64),2,8.3,6.8,7.5
+Jalen Walthall,Incarnate Word,73.0,180.0,61.0,791.0,11.0,87.9,Round 2 (Picks 33-64),2,8.3,6.8,7.6
+Cody Jackson,Tarleton State,72.0,185.0,47.0,636.0,9.0,57.8,Round 2 (Picks 33-64),2,7.3,6.8,7.1
+Gabriel Benyard,Kennesaw State,70.0,185.0,53.0,725.0,10.0,51.8,Round 2 (Picks 33-64),2,7.8,6.8,7.3
+Raphael Williams Jr.,Pittsburgh,70.0,165.0,48.0,689.0,10.0,53.0,Round 2 (Picks 33-64),2,8.4,6.8,7.6
+Myles Butler,Middle Tennessee,74.0,205.0,48.0,444.0,6.0,40.4,Round 2 (Picks 33-64),2,7.3,6.8,7.0
+Josh Cameron,Baylor,73.0,224.0,59.0,664.0,9.0,55.3,Round 2 (Picks 33-64),2,6.4,4.5,5.4
+Trent Walker,Oregon State,74.0,194.0,59.0,758.0,11.0,68.9,Round 2 (Picks 33-64),2,8.2,6.8,7.5
+Ashtyn Hawkins,Baylor,70.0,168.0,52.0,616.0,9.0,51.3,Round 2 (Picks 33-64),2,8.5,6.8,7.6
+Jordyn Tyson,Arizona State,74.0,200.0,59.0,701.0,10.0,77.9,Round 2 (Picks 33-64),2,8.4,6.8,7.6
+Parker Kingston,BYU,71.0,185.0,66.0,926.0,13.0,66.1,Round 2 (Picks 33-64),2,8.2,6.8,7.5
+Peyton Kramer,Tarleton State,71.0,175.0,47.0,750.0,11.0,57.7,Round 2 (Picks 33-64),2,8.4,6.8,7.6
+Gavin Freeman,Oklahoma State,68.0,185.0,40.0,323.0,5.0,32.3,Round 2 (Picks 33-64),2,8.0,4.5,6.2
+Jacquon Gibson,Massachusetts,71.0,195.0,61.0,578.0,8.0,64.2,Round 2 (Picks 33-64),2,7.5,6.8,7.2
+Marcus Sanders Jr.,Georgia Southern,73.0,190.0,46.0,677.0,10.0,52.1,Round 2 (Picks 33-64),2,7.2,6.8,7.0
+Dalen Cobb,Georgia Southern,69.0,180.0,56.0,513.0,7.0,46.6,Round 2 (Picks 33-64),2,7.3,6.8,7.1
+Anthony Evans III,Mississippi State,71.0,180.0,63.0,785.0,11.0,65.4,Round 2 (Picks 33-64),2,7.3,6.8,7.1
+Trell Harris,Virginia,72.0,200.0,58.0,833.0,12.0,64.1,Round 2 (Picks 33-64),2,7.4,6.8,7.1
+Cyrus Allen,Cincinnati,71.0,180.0,44.0,567.0,8.0,43.6,Round 2 (Picks 33-64),2,6.6,4.1,5.3
+Iverson Hooks,UAB,70.0,175.0,69.0,869.0,12.0,72.4,Round 2 (Picks 33-64),2,7.2,4.1,5.6
+Easton Messer,Florida Atlantic,69.0,190.0,89.0,955.0,14.0,79.6,Round 2 (Picks 33-64),2,7.0,4.1,5.5
+Coy Eakin,Texas Tech,74.0,210.0,45.0,552.0,8.0,42.5,Round 2 (Picks 33-64),2,4.5,4.0,4.3
+David Amador II,UTSA,72.0,195.0,40.0,400.0,6.0,36.4,Round 2 (Picks 33-64),2,6.3,4.1,5.2
+Jordan Napier,San Diego State,73.0,195.0,47.0,633.0,9.0,63.3,Round 2 (Picks 33-64),2,6.4,4.1,5.3
+Chase Hendricks,Ohio,72.0,200.0,73.0,1081.0,15.0,90.1,Round 2 (Picks 33-64),2,6.8,4.1,5.5
+Kenny Johnson,Pittsburgh,73.0,205.0,43.0,597.0,9.0,49.8,Round 2 (Picks 33-64),2,4.9,4.0,4.5
+Ian Strong,Rutgers,75.0,215.0,51.0,722.0,10.0,72.2,Round 2 (Picks 33-64),2,4.4,4.0,4.2
+Anthony Eager,South Alabama,73.0,182.0,42.0,358.0,5.0,29.8,Round 2 (Picks 33-64),2,6.5,4.1,5.3
+Devin McCuin,UTSA,72.0,195.0,60.0,644.0,9.0,53.7,Round 2 (Picks 33-64),2,6.4,4.1,5.2
+Amare Thomas,Houston,72.0,205.0,58.0,758.0,11.0,58.3,Round 2 (Picks 33-64),2,5.5,4.0,4.8
+Chris Dawn Jr.,Texas State,67.0,170.0,28.0,622.0,9.0,103.7,Round 2 (Picks 33-64),2,7.7,4.1,5.9
+Junior Sherrill,Vanderbilt,71.0,188.0,50.0,721.0,10.0,55.5,Round 2 (Picks 33-64),2,6.5,4.1,5.3
+Jaron Tibbs,Kansas State,74.0,212.0,46.0,582.0,8.0,48.5,Round 2 (Picks 33-64),2,4.4,4.0,4.2
+Nyziah Hunter,Nebraska,73.0,205.0,43.0,617.0,9.0,51.4,Round 2 (Picks 33-64),2,4.8,4.0,4.4
+Mario Craver,Texas A&M,69.0,165.0,59.0,911.0,13.0,75.9,Round 2 (Picks 33-64),2,7.7,4.1,5.9
+Cam Coleman,Auburn,75.0,201.0,53.0,682.0,10.0,56.8,Round 2 (Picks 33-64),2,5.8,4.0,4.9
+Mike Matthews,Tennessee,73.0,200.0,51.0,796.0,11.0,61.2,Round 2 (Picks 33-64),2,6.1,4.1,5.1
+Nick Marsh,Michigan State,75.0,203.0,54.0,625.0,9.0,52.1,Round 2 (Picks 33-64),2,5.8,4.0,4.9
+Jordan Shipp,North Carolina,74.0,190.0,55.0,560.0,8.0,46.7,Round 2 (Picks 33-64),2,6.3,4.1,5.2
+Jeremiah Smith,Ohio State,75.0,223.0,82.0,1171.0,17.0,90.1,Round 2 (Picks 33-64),2,5.1,4.0,4.6
+Isaiah Sategna,Oklahoma,70.0,182.0,61.0,781.0,11.0,65.1,Round 2 (Picks 33-64),2,6.7,4.1,5.4
+Javen Nicholas,Charlotte,69.0,190.0,53.0,613.0,9.0,51.1,Round 2 (Picks 33-64),2,6.9,4.1,5.5
+Antonio Williams,Clemson,71.0,190.0,51.0,526.0,8.0,65.8,Round 2 (Picks 33-64),2,6.1,4.1,5.1
+Eli Heidenreich,Navy,72.0,206.0,49.0,924.0,13.0,71.1,Round 2 (Picks 33-64),2,5.4,4.0,4.7
+DJ Epps,Troy,73.0,185.0,44.0,449.0,6.0,40.8,Round 2 (Picks 33-64),2,6.2,4.1,5.1
+Kenny Odom,UTEP,70.0,170.0,48.0,366.0,5.0,36.6,Round 2 (Picks 33-64),2,6.6,4.1,5.3
+Jacory Barney Jr.,Nebraska,72.0,170.0,42.0,495.0,7.0,38.1,Round 2 (Picks 33-64),2,7.5,4.1,5.8
+Alex Perry,Florida International,77.0,210.0,50.0,697.0,10.0,53.6,Round 2 (Picks 33-64),2,4.9,4.0,4.5
+Pofele Ashlock,Hawai'i,74.0,185.0,73.0,808.0,12.0,67.3,Round 2 (Picks 33-64),2,7.0,4.1,5.5
+Terrell Anderson,NC State,74.0,204.0,38.0,622.0,9.0,47.8,Round 2 (Picks 33-64),2,5.1,4.0,4.6
+KJ Duff,Rutgers,78.0,220.0,61.0,1102.0,16.0,91.8,Round 2 (Picks 33-64),2,6.4,4.0,5.2
+Victor Snow,Buffalo,68.0,168.0,59.0,783.0,11.0,65.2,Round 2 (Picks 33-64),2,7.7,4.1,5.9
+C.J. Williams,Stanford,73.0,205.0,55.0,635.0,9.0,52.9,Round 2 (Picks 33-64),2,5.0,4.0,4.5
+Chauncy Cobb,Arkansas State,66.0,163.0,71.0,806.0,12.0,62.0,Round 2 (Picks 33-64),2,7.4,4.1,5.8
+Elijah Sarratt,Indiana,74.0,209.0,55.0,699.0,10.0,58.2,Round 2 (Picks 33-64),2,4.9,4.0,4.5
+Chris Brazzell II,Tennessee,77.0,200.0,61.0,968.0,14.0,80.7,Round 2 (Picks 33-64),2,7.2,4.1,5.6
+Josiah Freeman,Fresno State,75.0,196.0,50.0,596.0,9.0,49.7,Round 2 (Picks 33-64),2,6.7,4.1,5.4
+Demarcus Lacey,Marshall,72.0,190.0,59.0,633.0,9.0,57.5,Round 2 (Picks 33-64),2,6.4,4.1,5.2
+Eric Singleton Jr.,Auburn,70.0,180.0,52.0,487.0,7.0,44.3,Round 2 (Picks 33-64),2,6.2,4.1,5.1
+Chauncey Spikes,North Carolina Central,74.0,200.0,42.0,542.0,8.0,49.3,Round 2 (Picks 33-64),2,5.8,4.1,5.0
+Jackson Harris,Hawai'i,75.0,205.0,40.0,624.0,9.0,62.4,Round 2 (Picks 33-64),2,5.4,4.0,4.7
+Jayce Brown,Kansas State,72.0,179.0,39.0,655.0,9.0,72.8,Round 2 (Picks 33-64),2,6.6,4.1,5.3
+Hunter Summers,Arkansas State,75.0,161.0,42.0,475.0,7.0,36.5,Round 2 (Picks 33-64),2,7.5,4.1,5.8
+Yamir Knight,SMU,68.0,186.0,50.0,564.0,8.0,47.0,Round 2 (Picks 33-64),2,7.7,4.1,5.9
+Keshaun Singleton,South Florida,75.0,215.0,44.0,752.0,11.0,62.7,Round 2 (Picks 33-64),2,5.1,4.0,4.5
+Cole Weaver,Miami (OH),77.0,220.0,41.0,588.0,8.0,49.0,Round 2 (Picks 33-64),2,5.4,4.0,4.7
+Kwazi Gilmer,UCLA,74.0,190.0,47.0,475.0,7.0,39.6,Round 2 (Picks 33-64),2,7.2,4.1,5.6
+Braylon Staley,Tennessee,72.0,190.0,65.0,782.0,11.0,60.2,Round 2 (Picks 33-64),2,7.5,4.1,5.8
+Andrew Marsh,Michigan,72.0,190.0,43.0,645.0,9.0,71.7,Round 2 (Picks 33-64),2,7.5,4.1,5.8
+Ryan Williams,Alabama,72.0,178.0,48.0,681.0,10.0,56.8,Round 2 (Picks 33-64),2,7.9,4.1,6.0
+Wyatt Young,North Texas,72.0,195.0,67.0,1103.0,16.0,78.8,Round 2 (Picks 33-64),2,7.8,4.1,5.9
+Miles Coleman,North Texas,66.0,159.0,46.0,499.0,7.0,41.6,Round 2 (Picks 33-64),2,8.3,4.1,6.2
+Jordan Faison,Notre Dame,70.0,183.0,45.0,587.0,8.0,48.9,Round 2 (Picks 33-64),2,7.3,4.1,5.7
+Duane Thomas Jr.,UCF,68.0,175.0,53.0,554.0,8.0,46.2,Round 2 (Picks 33-64),2,7.7,4.1,5.9
+Deuce Alexander,Ole Miss,72.0,175.0,43.0,596.0,9.0,39.7,Round 2 (Picks 33-64),2,7.9,4.1,6.0
+Beau Sparks,Texas State,71.0,175.0,81.0,1025.0,15.0,78.8,Round 2 (Picks 33-64),2,8.6,4.1,6.3
+Danny Scudero,San José State,69.0,174.0,85.0,1189.0,17.0,99.1,Round 2 (Picks 33-64),2,8.5,4.1,6.3
+DT Sheffield,Rutgers,70.0,175.0,42.0,551.0,8.0,45.9,Round 2 (Picks 33-64),2,7.6,4.1,5.8
+Jaden Barnes,App State,68.0,170.0,51.0,523.0,7.0,58.1,Round 2 (Picks 33-64),2,8.0,4.1,6.0
+Griffin Wilde,Northwestern,74.0,200.0,60.0,687.0,10.0,57.2,Round 2 (Picks 33-64),2,6.9,4.1,5.5
+Jacob De Jesus,California,67.0,170.0,102.0,965.0,14.0,74.2,Round 2 (Picks 33-64),2,8.7,4.1,6.4
+Yannick Smith,East Carolina,75.0,207.0,40.0,503.0,7.0,50.3,Round 2 (Picks 33-64),2,5.4,4.0,4.7
+David Wells Jr.,Oregon State,73.0,183.0,42.0,468.0,7.0,42.5,Round 2 (Picks 33-64),2,7.0,4.1,5.6
+Javon Robinson,Georgia State,67.0,155.0,54.0,585.0,8.0,48.8,Round 2 (Picks 33-64),2,8.3,4.1,6.2
+Donovan Faupel,New Mexico State,73.0,195.0,51.0,548.0,8.0,60.9,Round 2 (Picks 33-64),2,7.0,4.1,5.5
+Malachi Toney,Miami,71.0,,91.0,965.0,14.0,64.3,Round 2 (Picks 33-64),2,7.4,4.0,5.7
+Zion Booker,Tulsa,70.0,185.0,42.0,392.0,6.0,49.0,Round 2 (Picks 33-64),2,6.7,4.1,5.4
+Na'eem Abdul-Rahim Gladding,Old Dominion,72.0,198.0,50.0,672.0,10.0,51.7,Round 2 (Picks 33-64),2,6.9,4.1,5.5
+Ryan Wingo,Texas,74.0,214.0,50.0,712.0,10.0,54.8,Round 2 (Picks 33-64),2,5.3,4.0,4.7
+T.J. Moore,Clemson,75.0,200.0,50.0,745.0,11.0,62.1,Round 2 (Picks 33-64),2,7.3,4.1,5.7
+Que'Sean Brown,Duke,68.0,165.0,59.0,712.0,10.0,50.9,Round 2 (Picks 33-64),2,8.3,4.1,6.2
+Leland Smith,San José State,76.0,215.0,42.0,650.0,9.0,59.1,Round 2 (Picks 33-64),2,5.5,4.0,4.8
+Kyri Shoels,San José State,72.0,182.0,57.0,737.0,11.0,61.4,Round 2 (Picks 33-64),2,7.8,4.1,5.9
+Ted Hurst,Georgia State,75.0,185.0,66.0,949.0,14.0,86.3,Round 2 (Picks 33-64),2,7.6,4.1,5.8
+Tony Freeman,Washington State,68.0,171.0,53.0,531.0,8.0,40.8,Round 2 (Picks 33-64),2,8.2,4.1,6.1
+Sean Wilson,Delaware,72.0,185.0,63.0,806.0,12.0,62.0,Round 2 (Picks 33-64),2,7.8,4.1,5.9
+Matthew Henry,Western Kentucky,71.0,176.0,52.0,833.0,12.0,64.1,Round 2 (Picks 33-64),2,8.3,4.1,6.2
+Tre Richardson,Vanderbilt,70.0,175.0,40.0,527.0,8.0,47.9,Round 2 (Picks 33-64),2,7.5,4.1,5.8
+Ja'Cory Thomas,Old Dominion,75.0,210.0,39.0,673.0,10.0,56.1,Round 2 (Picks 33-64),2,5.5,4.0,4.8
+Cameron Dorner,North Texas,73.0,195.0,49.0,734.0,10.0,52.4,Round 2 (Picks 33-64),2,6.9,4.1,5.5
+DeAree Rogers,Northern Illinois,71.0,200.0,45.0,492.0,7.0,41.0,Round 2 (Picks 33-64),2,7.0,4.1,5.6
+Marcel Williams,Akron,71.0,185.0,43.0,599.0,9.0,54.5,Round 3 (Picks 65-104),3,12.9,5.3,9.1
+Kris Hutson,Arizona,71.0,174.0,58.0,754.0,11.0,68.5,Round 3 (Picks 65-104),3,14.6,5.3,10.0
+Caullin Lacy,Louisville,70.0,190.0,57.0,592.0,8.0,49.3,Round 3 (Picks 65-104),3,12.6,5.3,8.9
+Latrell Caples,Boise State,72.0,191.0,47.0,558.0,8.0,42.9,Round 3 (Picks 65-104),3,13.0,5.3,9.2
+Romello Brinson,SMU,74.0,190.0,40.0,517.0,7.0,51.7,Round 3 (Picks 65-104),3,13.6,5.3,9.4
+Jalil Farooq,Maryland,74.0,213.0,52.0,471.0,7.0,39.2,Round 3 (Picks 65-104),3,11.4,5.3,8.3
+Elijah Metcalf,Southern Miss,69.0,170.0,53.0,651.0,9.0,54.2,Round 3 (Picks 65-104),3,12.0,5.3,8.6
+Corey Rucker,Arkansas State,72.0,213.0,70.0,944.0,13.0,72.6,Round 3 (Picks 65-104),3,11.4,5.3,8.3
+Cam Ross,Virginia,70.0,186.0,52.0,577.0,8.0,52.5,Round 3 (Picks 65-104),3,10.6,5.3,7.9
+Ryan Davis,Utah,71.0,181.0,60.0,681.0,10.0,61.9,Round 3 (Picks 65-104),3,11.3,5.3,8.3
+Devin Voisin,South Alabama,70.0,187.0,68.0,799.0,11.0,66.6,Round 3 (Picks 65-104),3,11.8,5.3,8.5
+Trebor Pena,Penn State,70.0,186.0,44.0,419.0,6.0,34.9,Round 3 (Picks 65-104),3,11.6,5.3,8.4
+Michael Jackson III,Purdue,72.0,205.0,63.0,576.0,8.0,48.0,Round 3 (Picks 65-104),3,10.0,5.3,7.6
+Le'Meke Brockington,Minnesota,72.0,195.0,44.0,478.0,7.0,43.5,Round 3 (Picks 65-104),3,10.4,5.3,7.8
+Eric McAlister,TCU,75.0,205.0,66.0,1097.0,16.0,91.4,Round 3 (Picks 65-104),3,14.7,8.9,11.8
+Malik Rutherford,Georgia Tech,69.0,170.0,40.0,402.0,6.0,44.7,Round 3 (Picks 65-104),3,11.0,8.9,10.0
+CJ Daniels,Miami,74.0,205.0,45.0,464.0,7.0,42.2,Round 3 (Picks 65-104),3,10.3,8.9,9.6
+Sahmir Hagans,Duke,70.0,190.0,40.0,416.0,6.0,32.0,Round 3 (Picks 65-104),3,10.4,6.6,8.5
+Jaden Bradley,UNLV,76.0,195.0,54.0,866.0,12.0,61.9,Round 3 (Picks 65-104),3,13.2,8.9,11.1
+Deion Burks,Oklahoma,69.0,188.0,56.0,589.0,8.0,45.3,Round 3 (Picks 65-104),3,9.8,6.6,8.2
+Skyler Bell,UConn,72.0,185.0,93.0,1130.0,16.0,94.2,Round 3 (Picks 65-104),3,13.0,7.9,10.5
+Lewis Bond,Boston College,71.0,190.0,85.0,977.0,14.0,81.4,Round 3 (Picks 65-104),3,12.3,7.9,10.1
+Joseph Manjack IV,TCU,75.0,205.0,42.0,556.0,8.0,50.5,Round 3 (Picks 65-104),3,12.1,7.8,10.0
+Keagan Johnson,New Mexico,72.0,199.0,52.0,620.0,9.0,62.0,Round 3 (Picks 65-104),3,11.0,7.9,9.4
+Aaron Turner,Rice,68.0,184.0,54.0,396.0,6.0,30.5,Round 3 (Picks 65-104),3,10.5,5.6,8.0
+Jahmal Edrine,Virginia,75.0,221.0,44.0,549.0,8.0,39.2,Round 3 (Picks 65-104),3,9.8,5.5,7.6
+O'Mega Blake,Arkansas,74.0,182.0,54.0,714.0,10.0,59.5,Round 3 (Picks 65-104),3,11.8,7.9,9.8
+Anthony Smith,East Carolina,75.0,189.0,59.0,947.0,14.0,72.8,Round 3 (Picks 65-104),3,14.2,7.9,11.1
+Germie Bernard,Alabama,73.0,204.0,63.0,866.0,12.0,61.9,Round 3 (Picks 65-104),3,9.2,7.8,8.5
+Kevin Coleman Jr.,Missouri,71.0,180.0,66.0,736.0,11.0,61.3,Round 3 (Picks 65-104),3,10.3,7.9,9.1
+Emmanuel Henderson Jr.,Kansas,73.0,190.0,43.0,746.0,11.0,62.2,Round 3 (Picks 65-104),3,10.2,7.9,9.0
+Jordan Hudson,SMU,73.0,200.0,57.0,722.0,10.0,65.6,Round 3 (Picks 65-104),3,9.3,7.9,8.6
+Shaleak Knotts,Maryland,75.0,194.0,42.0,687.0,10.0,62.5,Round 3 (Picks 65-104),3,10.9,7.9,9.4
+Kendrick Law,Kentucky,72.0,205.0,52.0,569.0,8.0,51.7,Round 3 (Picks 65-104),3,6.0,3.7,4.8
+Shazz Preston,Tulane,72.0,206.0,40.0,584.0,8.0,41.7,Round 3 (Picks 65-104),3,5.7,3.7,4.7
+Brenen Thompson,Mississippi State,69.0,170.0,53.0,979.0,14.0,75.3,Round 3 (Picks 65-104),3,9.9,6.1,8.0
+Joshua Meredith,Washington State,72.0,193.0,55.0,722.0,10.0,55.5,Round 3 (Picks 65-104),3,8.1,6.1,7.1
+Harrison Wallace III,Ole Miss,73.0,195.0,60.0,910.0,13.0,65.0,Round 3 (Picks 65-104),3,8.8,6.1,7.5
+Omari Kelly,Michigan State,72.0,188.0,44.0,602.0,9.0,50.2,Round 3 (Picks 65-104),3,7.6,6.1,6.8
+K.D. Hutchinson,Western Kentucky,68.0,178.0,64.0,636.0,9.0,48.9,Round 3 (Picks 65-104),3,8.7,6.1,7.4
+Kyre Duplessis,Delaware,71.0,190.0,59.0,831.0,12.0,63.9,Round 3 (Picks 65-104),3,7.8,6.1,7.0
+Christian Moss,Kennesaw State,75.0,199.0,41.0,643.0,9.0,53.6,Round 3 (Picks 65-104),3,8.8,6.8,7.8
+De'Zhaun Stribling,Ole Miss,74.0,200.0,51.0,722.0,10.0,48.1,Round 3 (Picks 65-104),3,8.4,6.8,7.6
+Eric Rivers,Georgia Tech,71.0,180.0,43.0,631.0,9.0,52.6,Round 3 (Picks 65-104),3,7.4,6.8,7.1
+Chase Roberts,BYU,76.0,210.0,54.0,795.0,11.0,61.2,Round 3 (Picks 65-104),3,8.3,6.8,7.5
+Omar Cooper Jr.,Indiana,72.0,201.0,59.0,814.0,12.0,58.1,Round 3 (Picks 65-104),3,7.4,4.5,6.0
+Cooper Barkate,Duke,73.0,195.0,69.0,1007.0,14.0,71.9,Round 3 (Picks 65-104),3,8.5,6.8,7.7
+Camden Brown,Georgia Southern,74.0,200.0,60.0,969.0,14.0,74.5,Round 3 (Picks 65-104),3,8.4,6.8,7.6
+Hank Beatty,Illinois,71.0,185.0,69.0,863.0,12.0,66.4,Round 3 (Picks 65-104),3,8.1,6.8,7.5
+Denzel Boston,Washington,76.0,209.0,58.0,786.0,11.0,71.5,Round 3 (Picks 65-104),3,8.1,6.8,7.4
+Jordan Dwyer,TCU,72.0,195.0,51.0,626.0,9.0,52.2,Round 3 (Picks 65-104),3,7.7,6.8,7.3
+Jayshon Platt,Florida Atlantic,73.0,195.0,44.0,681.0,10.0,61.9,Round 3 (Picks 65-104),3,8.7,6.8,7.8
+Junior Vandeross III,Toledo,68.0,182.0,78.0,921.0,13.0,70.8,Round 3 (Picks 65-104),3,7.5,4.5,6.0
+Kam Perry,Miami (OH),69.0,168.0,41.0,901.0,13.0,69.3,Round 3 (Picks 65-104),3,8.7,6.8,7.8
+Reggie Virgil,Texas Tech,75.0,190.0,53.0,658.0,9.0,47.0,Round 3 (Picks 65-104),3,9.7,6.8,8.3
+Brock Spalding,East Carolina,71.0,193.0,41.0,555.0,8.0,42.7,Round 3 (Picks 65-104),3,6.8,6.8,6.8
+Braden Pegan,Utah State,75.0,210.0,59.0,829.0,12.0,69.1,Round 3 (Picks 65-104),3,6.6,6.8,6.7
+Octavian Smith Jr.,Maryland,72.0,182.0,42.0,530.0,8.0,44.2,Round 3 (Picks 65-104),3,6.7,6.8,6.7
+Cam Pickett,Kansas,72.0,200.0,45.0,462.0,7.0,38.5,Round 3 (Picks 65-104),3,6.8,6.8,6.8
+Caleb Douglas,Texas Tech,76.0,210.0,49.0,731.0,10.0,56.2,Round 3 (Picks 65-104),3,6.4,6.8,6.6
+Langston Lewis,Central Michigan,72.0,195.0,41.0,454.0,6.0,37.8,Round 3 (Picks 65-104),3,6.4,4.1,5.3
+Nik McMillan,Buffalo,73.0,187.0,60.0,901.0,13.0,75.1,Round 3 (Picks 65-104),3,6.6,4.1,5.3
+Chris Bell,Louisville,74.0,220.0,72.0,924.0,13.0,84.0,Round 3 (Picks 65-104),3,4.3,4.0,4.2
+Zachariah Branch,Georgia,70.0,180.0,78.0,794.0,11.0,56.7,Round 3 (Picks 65-104),3,6.4,4.1,5.2
+KC Concepcion,Texas A&M,71.0,190.0,56.0,814.0,12.0,62.6,Round 3 (Picks 65-104),3,6.2,4.1,5.1
+Johntay Cook,Syracuse,72.0,198.0,42.0,518.0,7.0,47.1,Round 3 (Picks 65-104),3,5.8,4.1,4.9
+Makai Lemon,USC,71.0,195.0,74.0,1110.0,16.0,92.5,Round 3 (Picks 65-104),3,6.4,4.1,5.2
+Ja'Kobi Lane,USC,76.0,200.0,48.0,735.0,10.0,66.8,Round 3 (Picks 65-104),3,6.2,4.1,5.1
+Omarion Miller,Colorado,74.0,210.0,39.0,680.0,10.0,61.8,Round 3 (Picks 65-104),3,4.7,4.0,4.3
+Cayden Lee,Ole Miss,71.0,175.0,42.0,581.0,8.0,38.7,Round 3 (Picks 65-104),3,6.9,4.1,5.5
+Duce Robinson,Florida State,78.0,222.0,51.0,991.0,14.0,82.6,Round 3 (Picks 65-104),3,5.7,4.0,4.9
+Carnell Tate,Ohio State,75.0,195.0,49.0,823.0,12.0,74.8,Round 3 (Picks 65-104),3,6.3,4.1,5.2
+Asaad Waseem,Florida Atlantic,71.0,175.0,66.0,658.0,9.0,54.8,Round 3 (Picks 65-104),3,7.0,4.1,5.5
+Raylen Sharpe,Arkansas,69.0,165.0,40.0,572.0,8.0,47.7,Round 3 (Picks 65-104),3,7.4,4.1,5.7
+Trond Grizzell,California,76.0,205.0,56.0,795.0,11.0,66.2,Round 3 (Picks 65-104),3,5.3,4.0,4.7
+Jalen Walthall,Incarnate Word,73.0,180.0,61.0,791.0,11.0,87.9,Round 3 (Picks 65-104),3,6.4,4.1,5.2
+Cody Jackson,Tarleton State,72.0,185.0,47.0,636.0,9.0,57.8,Round 3 (Picks 65-104),3,6.4,4.1,5.3
+Gabriel Benyard,Kennesaw State,70.0,185.0,53.0,725.0,10.0,51.8,Round 3 (Picks 65-104),3,6.4,4.1,5.2
+Raphael Williams Jr.,Pittsburgh,70.0,165.0,48.0,689.0,10.0,53.0,Round 3 (Picks 65-104),3,7.1,4.1,5.6
+Myles Butler,Middle Tennessee,74.0,205.0,48.0,444.0,6.0,40.4,Round 3 (Picks 65-104),3,4.9,4.0,4.5
+Josh Cameron,Baylor,73.0,224.0,59.0,664.0,9.0,55.3,Round 3 (Picks 65-104),3,4.8,4.0,4.4
+Trent Walker,Oregon State,74.0,194.0,59.0,758.0,11.0,68.9,Round 3 (Picks 65-104),3,5.7,4.1,4.9
+Ashtyn Hawkins,Baylor,70.0,168.0,52.0,616.0,9.0,51.3,Round 3 (Picks 65-104),3,7.1,4.1,5.6
+Jordyn Tyson,Arizona State,74.0,200.0,59.0,701.0,10.0,77.9,Round 3 (Picks 65-104),3,6.0,4.1,5.1
+Parker Kingston,BYU,71.0,185.0,66.0,926.0,13.0,66.1,Round 3 (Picks 65-104),3,6.9,4.1,5.5
+Peyton Kramer,Tarleton State,71.0,175.0,47.0,750.0,11.0,57.7,Round 3 (Picks 65-104),3,7.1,4.1,5.6
+Gavin Freeman,Oklahoma State,68.0,185.0,40.0,323.0,5.0,32.3,Round 3 (Picks 65-104),3,6.2,4.1,5.1
+Jacquon Gibson,Massachusetts,71.0,195.0,61.0,578.0,8.0,64.2,Round 3 (Picks 65-104),3,5.8,4.1,4.9
+Marcus Sanders Jr.,Georgia Southern,73.0,190.0,46.0,677.0,10.0,52.1,Round 3 (Picks 65-104),3,6.1,4.1,5.1
+Dalen Cobb,Georgia Southern,69.0,180.0,56.0,513.0,7.0,46.6,Round 3 (Picks 65-104),3,6.1,4.1,5.1
+Anthony Evans III,Mississippi State,71.0,180.0,63.0,785.0,11.0,65.4,Round 3 (Picks 65-104),3,6.8,4.1,5.5
+Trell Harris,Virginia,72.0,200.0,58.0,833.0,12.0,64.1,Round 3 (Picks 65-104),3,6.2,4.1,5.1
+Cyrus Allen,Cincinnati,71.0,180.0,44.0,567.0,8.0,43.6,Round 3 (Picks 65-104),3,6.5,4.1,5.3
+Iverson Hooks,UAB,70.0,175.0,69.0,869.0,12.0,72.4,Round 3 (Picks 65-104),3,7.2,4.1,5.6
+Easton Messer,Florida Atlantic,69.0,190.0,89.0,955.0,14.0,79.6,Round 3 (Picks 65-104),3,6.3,4.1,5.2
+Coy Eakin,Texas Tech,74.0,210.0,45.0,552.0,8.0,42.5,Round 3 (Picks 65-104),3,4.8,4.0,4.4
+David Amador II,UTSA,72.0,195.0,40.0,400.0,6.0,36.4,Round 3 (Picks 65-104),3,6.1,4.1,5.1
+Jordan Napier,San Diego State,73.0,195.0,47.0,633.0,9.0,63.3,Round 3 (Picks 65-104),3,6.3,4.1,5.2
+Chase Hendricks,Ohio,72.0,200.0,73.0,1081.0,15.0,90.1,Round 3 (Picks 65-104),3,6.7,4.1,5.4
+Kenny Johnson,Pittsburgh,73.0,205.0,43.0,597.0,9.0,49.8,Round 3 (Picks 65-104),3,5.0,4.0,4.5
+Ian Strong,Rutgers,75.0,215.0,51.0,722.0,10.0,72.2,Round 3 (Picks 65-104),3,4.7,4.0,4.4
+Anthony Eager,South Alabama,73.0,182.0,42.0,358.0,5.0,29.8,Round 3 (Picks 65-104),3,6.4,4.1,5.3
+Devin McCuin,UTSA,72.0,195.0,60.0,644.0,9.0,53.7,Round 3 (Picks 65-104),3,6.3,4.1,5.2
+Amare Thomas,Houston,72.0,205.0,58.0,758.0,11.0,58.3,Round 3 (Picks 65-104),3,5.5,4.0,4.8
+Chris Dawn Jr.,Texas State,67.0,170.0,28.0,622.0,9.0,103.7,Round 3 (Picks 65-104),3,7.5,4.1,5.8
+Junior Sherrill,Vanderbilt,71.0,188.0,50.0,721.0,10.0,55.5,Round 3 (Picks 65-104),3,6.8,4.1,5.4
+Jaron Tibbs,Kansas State,74.0,212.0,46.0,582.0,8.0,48.5,Round 3 (Picks 65-104),3,5.2,4.0,4.6
+Nyziah Hunter,Nebraska,73.0,205.0,43.0,617.0,9.0,51.4,Round 3 (Picks 65-104),3,5.7,4.0,4.9
+Mario Craver,Texas A&M,69.0,165.0,59.0,911.0,13.0,75.9,Round 3 (Picks 65-104),3,8.4,4.1,6.2
+Cam Coleman,Auburn,75.0,201.0,53.0,682.0,10.0,56.8,Round 3 (Picks 65-104),3,6.7,4.0,5.4
+Mike Matthews,Tennessee,73.0,200.0,51.0,796.0,11.0,61.2,Round 3 (Picks 65-104),3,7.1,4.1,5.6
+Nick Marsh,Michigan State,75.0,203.0,54.0,625.0,9.0,52.1,Round 3 (Picks 65-104),3,6.9,4.0,5.5
+Jordan Shipp,North Carolina,74.0,190.0,55.0,560.0,8.0,46.7,Round 3 (Picks 65-104),3,7.2,4.1,5.7
+Jeremiah Smith,Ohio State,75.0,223.0,82.0,1171.0,17.0,90.1,Round 3 (Picks 65-104),3,5.7,4.0,4.9
+Isaiah Sategna,Oklahoma,70.0,182.0,61.0,781.0,11.0,65.1,Round 3 (Picks 65-104),3,7.7,4.1,5.9
+Javen Nicholas,Charlotte,69.0,190.0,53.0,613.0,9.0,51.1,Round 3 (Picks 65-104),3,7.4,4.1,5.7
+Antonio Williams,Clemson,71.0,190.0,51.0,526.0,8.0,65.8,Round 3 (Picks 65-104),3,6.9,4.1,5.5
+Eli Heidenreich,Navy,72.0,206.0,49.0,924.0,13.0,71.1,Round 3 (Picks 65-104),3,6.6,4.0,5.3
+DJ Epps,Troy,73.0,185.0,44.0,449.0,6.0,40.8,Round 3 (Picks 65-104),3,7.0,4.1,5.5
+Kenny Odom,UTEP,70.0,170.0,48.0,366.0,5.0,36.6,Round 3 (Picks 65-104),3,7.4,4.1,5.7
+Jacory Barney Jr.,Nebraska,72.0,170.0,42.0,495.0,7.0,38.1,Round 3 (Picks 65-104),3,8.2,4.1,6.2
+Alex Perry,Florida International,77.0,210.0,50.0,697.0,10.0,53.6,Round 3 (Picks 65-104),3,5.8,4.0,4.9
+Pofele Ashlock,Hawai'i,74.0,185.0,73.0,808.0,12.0,67.3,Round 3 (Picks 65-104),3,7.6,4.1,5.9
+Terrell Anderson,NC State,74.0,204.0,38.0,622.0,9.0,47.8,Round 3 (Picks 65-104),3,5.9,4.0,5.0
+KJ Duff,Rutgers,78.0,220.0,61.0,1102.0,16.0,91.8,Round 3 (Picks 65-104),3,6.4,4.0,5.2
+Victor Snow,Buffalo,68.0,168.0,59.0,783.0,11.0,65.2,Round 3 (Picks 65-104),3,8.6,4.1,6.4
+C.J. Williams,Stanford,73.0,205.0,55.0,635.0,9.0,52.9,Round 3 (Picks 65-104),3,5.8,4.0,4.9
+Chauncy Cobb,Arkansas State,66.0,163.0,71.0,806.0,12.0,62.0,Round 3 (Picks 65-104),3,8.5,4.1,6.3
+Elijah Sarratt,Indiana,74.0,209.0,55.0,699.0,10.0,58.2,Round 3 (Picks 65-104),3,5.5,4.0,4.8
+Chris Brazzell II,Tennessee,77.0,200.0,61.0,968.0,14.0,80.7,Round 3 (Picks 65-104),3,7.5,4.1,5.8
+Josiah Freeman,Fresno State,75.0,196.0,50.0,596.0,9.0,49.7,Round 3 (Picks 65-104),3,7.3,4.1,5.7
+Demarcus Lacey,Marshall,72.0,190.0,59.0,633.0,9.0,57.5,Round 3 (Picks 65-104),3,7.2,4.1,5.6
+Eric Singleton Jr.,Auburn,70.0,180.0,52.0,487.0,7.0,44.3,Round 3 (Picks 65-104),3,7.1,4.1,5.6
+Chauncey Spikes,North Carolina Central,74.0,200.0,42.0,542.0,8.0,49.3,Round 3 (Picks 65-104),3,6.4,4.1,5.2
+Jackson Harris,Hawai'i,75.0,205.0,40.0,624.0,9.0,62.4,Round 3 (Picks 65-104),3,5.9,4.0,5.0
+Jayce Brown,Kansas State,72.0,179.0,39.0,655.0,9.0,72.8,Round 3 (Picks 65-104),3,7.4,4.1,5.8
+Hunter Summers,Arkansas State,75.0,161.0,42.0,475.0,7.0,36.5,Round 3 (Picks 65-104),3,8.2,4.1,6.1
+Yamir Knight,SMU,68.0,186.0,50.0,564.0,8.0,47.0,Round 3 (Picks 65-104),3,7.6,4.1,5.8
+Keshaun Singleton,South Florida,75.0,215.0,44.0,752.0,11.0,62.7,Round 3 (Picks 65-104),3,5.2,4.0,4.6
+Cole Weaver,Miami (OH),77.0,220.0,41.0,588.0,8.0,49.0,Round 3 (Picks 65-104),3,5.3,4.0,4.7
+Kwazi Gilmer,UCLA,74.0,190.0,47.0,475.0,7.0,39.6,Round 3 (Picks 65-104),3,7.2,4.1,5.6
+Braylon Staley,Tennessee,72.0,190.0,65.0,782.0,11.0,60.2,Round 3 (Picks 65-104),3,7.8,4.1,5.9
+Andrew Marsh,Michigan,72.0,190.0,43.0,645.0,9.0,71.7,Round 3 (Picks 65-104),3,7.6,4.1,5.8
+Ryan Williams,Alabama,72.0,178.0,48.0,681.0,10.0,56.8,Round 3 (Picks 65-104),3,8.0,4.1,6.0
+Wyatt Young,North Texas,72.0,195.0,67.0,1103.0,16.0,78.8,Round 3 (Picks 65-104),3,7.5,4.1,5.8
+Miles Coleman,North Texas,66.0,159.0,46.0,499.0,7.0,41.6,Round 3 (Picks 65-104),3,8.4,4.1,6.2
+Jordan Faison,Notre Dame,70.0,183.0,45.0,587.0,8.0,48.9,Round 3 (Picks 65-104),3,7.4,4.1,5.7
+Duane Thomas Jr.,UCF,68.0,175.0,53.0,554.0,8.0,46.2,Round 3 (Picks 65-104),3,8.0,4.1,6.0
+Deuce Alexander,Ole Miss,72.0,175.0,43.0,596.0,9.0,39.7,Round 3 (Picks 65-104),3,8.1,4.1,6.1
+Beau Sparks,Texas State,71.0,175.0,81.0,1025.0,15.0,78.8,Round 3 (Picks 65-104),3,8.4,4.1,6.3
+Danny Scudero,San José State,69.0,174.0,85.0,1189.0,17.0,99.1,Round 3 (Picks 65-104),3,8.3,4.1,6.2
+DT Sheffield,Rutgers,70.0,175.0,42.0,551.0,8.0,45.9,Round 3 (Picks 65-104),3,7.7,4.1,5.9
+Jaden Barnes,App State,68.0,170.0,51.0,523.0,7.0,58.1,Round 3 (Picks 65-104),3,8.2,4.1,6.1
+Griffin Wilde,Northwestern,74.0,200.0,60.0,687.0,10.0,57.2,Round 3 (Picks 65-104),3,6.6,4.1,5.3
+Jacob De Jesus,California,67.0,170.0,102.0,965.0,14.0,74.2,Round 3 (Picks 65-104),3,8.4,4.1,6.3
+Yannick Smith,East Carolina,75.0,207.0,40.0,503.0,7.0,50.3,Round 3 (Picks 65-104),3,5.1,4.0,4.6
+David Wells Jr.,Oregon State,73.0,183.0,42.0,468.0,7.0,42.5,Round 3 (Picks 65-104),3,6.9,4.1,5.5
+Javon Robinson,Georgia State,67.0,155.0,54.0,585.0,8.0,48.8,Round 3 (Picks 65-104),3,8.4,4.1,6.2
+Donovan Faupel,New Mexico State,73.0,195.0,51.0,548.0,8.0,60.9,Round 3 (Picks 65-104),3,6.8,4.1,5.4
+Malachi Toney,Miami,71.0,,91.0,965.0,14.0,64.3,Round 3 (Picks 65-104),3,7.1,4.0,5.6
+Zion Booker,Tulsa,70.0,185.0,42.0,392.0,6.0,49.0,Round 3 (Picks 65-104),3,7.0,4.1,5.5
+Na'eem Abdul-Rahim Gladding,Old Dominion,72.0,198.0,50.0,672.0,10.0,51.7,Round 3 (Picks 65-104),3,7.1,4.1,5.6
+Ryan Wingo,Texas,74.0,214.0,50.0,712.0,10.0,54.8,Round 3 (Picks 65-104),3,5.6,4.0,4.8
+T.J. Moore,Clemson,75.0,200.0,50.0,745.0,11.0,62.1,Round 3 (Picks 65-104),3,7.1,4.1,5.6
+Que'Sean Brown,Duke,68.0,165.0,59.0,712.0,10.0,50.9,Round 3 (Picks 65-104),3,8.2,4.1,6.2
+Leland Smith,San José State,76.0,215.0,42.0,650.0,9.0,59.1,Round 3 (Picks 65-104),3,5.3,4.0,4.7
+Kyri Shoels,San José State,72.0,182.0,57.0,737.0,11.0,61.4,Round 3 (Picks 65-104),3,7.7,4.1,5.9
+Ted Hurst,Georgia State,75.0,185.0,66.0,949.0,14.0,86.3,Round 3 (Picks 65-104),3,7.2,4.1,5.6
+Tony Freeman,Washington State,68.0,171.0,53.0,531.0,8.0,40.8,Round 3 (Picks 65-104),3,8.3,4.1,6.2
+Sean Wilson,Delaware,72.0,185.0,63.0,806.0,12.0,62.0,Round 3 (Picks 65-104),3,7.5,4.1,5.8
+Matthew Henry,Western Kentucky,71.0,176.0,52.0,833.0,12.0,64.1,Round 3 (Picks 65-104),3,8.3,4.1,6.2
+Tre Richardson,Vanderbilt,70.0,175.0,40.0,527.0,8.0,47.9,Round 3 (Picks 65-104),3,7.4,4.1,5.7
+Ja'Cory Thomas,Old Dominion,75.0,210.0,39.0,673.0,10.0,56.1,Round 3 (Picks 65-104),3,5.3,4.0,4.7
+Cameron Dorner,North Texas,73.0,195.0,49.0,734.0,10.0,52.4,Round 3 (Picks 65-104),3,6.7,4.1,5.4
+DeAree Rogers,Northern Illinois,71.0,200.0,45.0,492.0,7.0,41.0,Round 3 (Picks 65-104),3,7.4,4.1,5.7
+Marcel Williams,Akron,71.0,185.0,43.0,599.0,9.0,54.5,Round 4-5 (Day 3),4,7.7,6.1,6.9
+Kris Hutson,Arizona,71.0,174.0,58.0,754.0,11.0,68.5,Round 4-5 (Day 3),4,7.9,6.8,7.3
+Caullin Lacy,Louisville,70.0,190.0,57.0,592.0,8.0,49.3,Round 4-5 (Day 3),4,6.7,4.5,5.6
+Latrell Caples,Boise State,72.0,191.0,47.0,558.0,8.0,42.9,Round 4-5 (Day 3),4,7.1,6.8,7.0
+Romello Brinson,SMU,74.0,190.0,40.0,517.0,7.0,51.7,Round 4-5 (Day 3),4,7.6,6.8,7.2
+Jalil Farooq,Maryland,74.0,213.0,52.0,471.0,7.0,39.2,Round 4-5 (Day 3),4,6.2,4.5,5.3
+Elijah Metcalf,Southern Miss,69.0,170.0,53.0,651.0,9.0,54.2,Round 4-5 (Day 3),4,8.0,6.8,7.4
+Corey Rucker,Arkansas State,72.0,213.0,70.0,944.0,13.0,72.6,Round 4-5 (Day 3),4,5.5,4.5,5.0
+Cam Ross,Virginia,70.0,186.0,52.0,577.0,8.0,52.5,Round 4-5 (Day 3),4,7.3,6.8,7.0
+Ryan Davis,Utah,71.0,181.0,60.0,681.0,10.0,61.9,Round 4-5 (Day 3),4,7.5,6.8,7.2
+Devin Voisin,South Alabama,70.0,187.0,68.0,799.0,11.0,66.6,Round 4-5 (Day 3),4,6.9,6.8,6.8
+Trebor Pena,Penn State,70.0,186.0,44.0,419.0,6.0,34.9,Round 4-5 (Day 3),4,7.5,6.8,7.1
+Michael Jackson III,Purdue,72.0,205.0,63.0,576.0,8.0,48.0,Round 4-5 (Day 3),4,5.6,4.5,5.0
+Le'Meke Brockington,Minnesota,72.0,195.0,44.0,478.0,7.0,43.5,Round 4-5 (Day 3),4,7.3,6.8,7.1
+Eric McAlister,TCU,75.0,205.0,66.0,1097.0,16.0,91.4,Round 4-5 (Day 3),4,8.7,6.8,7.7
+Malik Rutherford,Georgia Tech,69.0,170.0,40.0,402.0,6.0,44.7,Round 4-5 (Day 3),4,7.4,6.8,7.1
+CJ Daniels,Miami,74.0,205.0,45.0,464.0,7.0,42.2,Round 4-5 (Day 3),4,6.3,6.8,6.5
+Sahmir Hagans,Duke,70.0,190.0,40.0,416.0,6.0,32.0,Round 4-5 (Day 3),4,6.2,4.5,5.4
+Jaden Bradley,UNLV,76.0,195.0,54.0,866.0,12.0,61.9,Round 4-5 (Day 3),4,7.5,6.8,7.1
+Deion Burks,Oklahoma,69.0,188.0,56.0,589.0,8.0,45.3,Round 4-5 (Day 3),4,6.6,4.5,5.5
+Skyler Bell,UConn,72.0,185.0,93.0,1130.0,16.0,94.2,Round 4-5 (Day 3),4,7.2,4.1,5.6
+Lewis Bond,Boston College,71.0,190.0,85.0,977.0,14.0,81.4,Round 4-5 (Day 3),4,6.1,4.1,5.1
+Joseph Manjack IV,TCU,75.0,205.0,42.0,556.0,8.0,50.5,Round 4-5 (Day 3),4,4.6,4.0,4.3
+Keagan Johnson,New Mexico,72.0,199.0,52.0,620.0,9.0,62.0,Round 4-5 (Day 3),4,5.8,4.1,4.9
+Aaron Turner,Rice,68.0,184.0,54.0,396.0,6.0,30.5,Round 4-5 (Day 3),4,6.2,4.1,5.1
+Jahmal Edrine,Virginia,75.0,221.0,44.0,549.0,8.0,39.2,Round 4-5 (Day 3),4,4.2,4.0,4.1
+O'Mega Blake,Arkansas,74.0,182.0,54.0,714.0,10.0,59.5,Round 4-5 (Day 3),4,6.5,4.1,5.3
+Anthony Smith,East Carolina,75.0,189.0,59.0,947.0,14.0,72.8,Round 4-5 (Day 3),4,6.5,4.1,5.3
+Germie Bernard,Alabama,73.0,204.0,63.0,866.0,12.0,61.9,Round 4-5 (Day 3),4,4.5,4.0,4.3
+Kevin Coleman Jr.,Missouri,71.0,180.0,66.0,736.0,11.0,61.3,Round 4-5 (Day 3),4,6.4,4.1,5.2
+Emmanuel Henderson Jr.,Kansas,73.0,190.0,43.0,746.0,11.0,62.2,Round 4-5 (Day 3),4,6.0,4.1,5.0
+Jordan Hudson,SMU,73.0,200.0,57.0,722.0,10.0,65.6,Round 4-5 (Day 3),4,5.4,4.1,4.8
+Shaleak Knotts,Maryland,75.0,194.0,42.0,687.0,10.0,62.5,Round 4-5 (Day 3),4,6.0,4.1,5.0
+Kendrick Law,Kentucky,72.0,205.0,52.0,569.0,8.0,51.7,Round 4-5 (Day 3),4,5.0,4.0,4.5
+Shazz Preston,Tulane,72.0,206.0,40.0,584.0,8.0,41.7,Round 4-5 (Day 3),4,4.7,4.0,4.4
+Brenen Thompson,Mississippi State,69.0,170.0,53.0,979.0,14.0,75.3,Round 4-5 (Day 3),4,7.2,4.1,5.7
+Joshua Meredith,Washington State,72.0,193.0,55.0,722.0,10.0,55.5,Round 4-5 (Day 3),4,5.9,4.1,5.0
+Harrison Wallace III,Ole Miss,73.0,195.0,60.0,910.0,13.0,65.0,Round 4-5 (Day 3),4,6.0,4.1,5.0
+Omari Kelly,Michigan State,72.0,188.0,44.0,602.0,9.0,50.2,Round 4-5 (Day 3),4,6.1,4.1,5.1
+K.D. Hutchinson,Western Kentucky,68.0,178.0,64.0,636.0,9.0,48.9,Round 4-5 (Day 3),4,6.3,4.1,5.2
+Kyre Duplessis,Delaware,71.0,190.0,59.0,831.0,12.0,63.9,Round 4-5 (Day 3),4,6.0,4.1,5.0
+Christian Moss,Kennesaw State,75.0,199.0,41.0,643.0,9.0,53.6,Round 4-5 (Day 3),4,5.4,4.1,4.8
+De'Zhaun Stribling,Ole Miss,74.0,200.0,51.0,722.0,10.0,48.1,Round 4-5 (Day 3),4,5.6,4.1,4.9
+Eric Rivers,Georgia Tech,71.0,180.0,43.0,631.0,9.0,52.6,Round 4-5 (Day 3),4,6.1,4.1,5.1
+Chase Roberts,BYU,76.0,210.0,54.0,795.0,11.0,61.2,Round 4-5 (Day 3),4,4.8,4.0,4.4
+Omar Cooper Jr.,Indiana,72.0,201.0,59.0,814.0,12.0,58.1,Round 4-5 (Day 3),4,5.6,4.0,4.8
+Cooper Barkate,Duke,73.0,195.0,69.0,1007.0,14.0,71.9,Round 4-5 (Day 3),4,5.9,4.1,5.0
+Camden Brown,Georgia Southern,74.0,200.0,60.0,969.0,14.0,74.5,Round 4-5 (Day 3),4,5.9,4.1,5.0
+Hank Beatty,Illinois,71.0,185.0,69.0,863.0,12.0,66.4,Round 4-5 (Day 3),4,6.5,4.1,5.3
+Denzel Boston,Washington,76.0,209.0,58.0,786.0,11.0,71.5,Round 4-5 (Day 3),4,4.7,4.0,4.4
+Jordan Dwyer,TCU,72.0,195.0,51.0,626.0,9.0,52.2,Round 4-5 (Day 3),4,5.9,4.1,5.0
+Jayshon Platt,Florida Atlantic,73.0,195.0,44.0,681.0,10.0,61.9,Round 4-5 (Day 3),4,5.9,4.1,5.0
+Junior Vandeross III,Toledo,68.0,182.0,78.0,921.0,13.0,70.8,Round 4-5 (Day 3),4,6.2,4.1,5.1
+Kam Perry,Miami (OH),69.0,168.0,41.0,901.0,13.0,69.3,Round 4-5 (Day 3),4,7.3,4.1,5.7
+Reggie Virgil,Texas Tech,75.0,190.0,53.0,658.0,9.0,47.0,Round 4-5 (Day 3),4,6.2,4.1,5.1
+Brock Spalding,East Carolina,71.0,193.0,41.0,555.0,8.0,42.7,Round 4-5 (Day 3),4,5.5,4.1,4.8
+Braden Pegan,Utah State,75.0,210.0,59.0,829.0,12.0,69.1,Round 4-5 (Day 3),4,4.7,4.0,4.4
+Octavian Smith Jr.,Maryland,72.0,182.0,42.0,530.0,8.0,44.2,Round 4-5 (Day 3),4,6.4,4.1,5.2
+Cam Pickett,Kansas,72.0,200.0,45.0,462.0,7.0,38.5,Round 4-5 (Day 3),4,5.8,4.1,4.9
+Caleb Douglas,Texas Tech,76.0,210.0,49.0,731.0,10.0,56.2,Round 4-5 (Day 3),4,4.8,4.0,4.4
+Langston Lewis,Central Michigan,72.0,195.0,41.0,454.0,6.0,37.8,Round 4-5 (Day 3),4,6.0,4.1,5.0
+Nik McMillan,Buffalo,73.0,187.0,60.0,901.0,13.0,75.1,Round 4-5 (Day 3),4,6.3,4.1,5.2
+Chris Bell,Louisville,74.0,220.0,72.0,924.0,13.0,84.0,Round 4-5 (Day 3),4,4.5,4.0,4.3
+Zachariah Branch,Georgia,70.0,180.0,78.0,794.0,11.0,56.7,Round 4-5 (Day 3),4,5.9,4.1,5.0
+KC Concepcion,Texas A&M,71.0,190.0,56.0,814.0,12.0,62.6,Round 4-5 (Day 3),4,6.1,4.1,5.1
+Johntay Cook,Syracuse,72.0,198.0,42.0,518.0,7.0,47.1,Round 4-5 (Day 3),4,6.2,4.1,5.2
+Makai Lemon,USC,71.0,195.0,74.0,1110.0,16.0,92.5,Round 4-5 (Day 3),4,6.9,4.1,5.5
+Ja'Kobi Lane,USC,76.0,200.0,48.0,735.0,10.0,66.8,Round 4-5 (Day 3),4,6.4,4.1,5.2
+Omarion Miller,Colorado,74.0,210.0,39.0,680.0,10.0,61.8,Round 4-5 (Day 3),4,5.2,4.0,4.6
+Cayden Lee,Ole Miss,71.0,175.0,42.0,581.0,8.0,38.7,Round 4-5 (Day 3),4,7.5,4.1,5.8
+Duce Robinson,Florida State,78.0,222.0,51.0,991.0,14.0,82.6,Round 4-5 (Day 3),4,6.4,4.0,5.2
+Carnell Tate,Ohio State,75.0,195.0,49.0,823.0,12.0,74.8,Round 4-5 (Day 3),4,6.7,4.1,5.4
+Asaad Waseem,Florida Atlantic,71.0,175.0,66.0,658.0,9.0,54.8,Round 4-5 (Day 3),4,7.6,4.1,5.8
+Raylen Sharpe,Arkansas,69.0,165.0,40.0,572.0,8.0,47.7,Round 4-5 (Day 3),4,8.0,4.1,6.0
+Trond Grizzell,California,76.0,205.0,56.0,795.0,11.0,66.2,Round 4-5 (Day 3),4,6.0,4.0,5.0
+Jalen Walthall,Incarnate Word,73.0,180.0,61.0,791.0,11.0,87.9,Round 4-5 (Day 3),4,7.0,4.1,5.5
+Cody Jackson,Tarleton State,72.0,185.0,47.0,636.0,9.0,57.8,Round 4-5 (Day 3),4,7.0,4.1,5.5
+Gabriel Benyard,Kennesaw State,70.0,185.0,53.0,725.0,10.0,51.8,Round 4-5 (Day 3),4,6.9,4.1,5.5
+Raphael Williams Jr.,Pittsburgh,70.0,165.0,48.0,689.0,10.0,53.0,Round 4-5 (Day 3),4,7.7,4.1,5.9
+Myles Butler,Middle Tennessee,74.0,205.0,48.0,444.0,6.0,40.4,Round 4-5 (Day 3),4,5.3,4.0,4.7
+Josh Cameron,Baylor,73.0,224.0,59.0,664.0,9.0,55.3,Round 4-5 (Day 3),4,5.7,4.0,4.9
+Trent Walker,Oregon State,74.0,194.0,59.0,758.0,11.0,68.9,Round 4-5 (Day 3),4,6.4,4.1,5.2
+Ashtyn Hawkins,Baylor,70.0,168.0,52.0,616.0,9.0,51.3,Round 4-5 (Day 3),4,7.9,4.1,6.0
+Jordyn Tyson,Arizona State,74.0,200.0,59.0,701.0,10.0,77.9,Round 4-5 (Day 3),4,6.4,4.1,5.3
+Parker Kingston,BYU,71.0,185.0,66.0,926.0,13.0,66.1,Round 4-5 (Day 3),4,7.7,4.1,5.9
+Peyton Kramer,Tarleton State,71.0,175.0,47.0,750.0,11.0,57.7,Round 4-5 (Day 3),4,7.8,4.1,5.9
+Gavin Freeman,Oklahoma State,68.0,185.0,40.0,323.0,5.0,32.3,Round 4-5 (Day 3),4,7.2,4.1,5.6
+Jacquon Gibson,Massachusetts,71.0,195.0,61.0,578.0,8.0,64.2,Round 4-5 (Day 3),4,6.6,4.1,5.3
+Marcus Sanders Jr.,Georgia Southern,73.0,190.0,46.0,677.0,10.0,52.1,Round 4-5 (Day 3),4,6.6,4.1,5.3
+Dalen Cobb,Georgia Southern,69.0,180.0,56.0,513.0,7.0,46.6,Round 4-5 (Day 3),4,7.1,4.1,5.6
+Anthony Evans III,Mississippi State,71.0,180.0,63.0,785.0,11.0,65.4,Round 4-5 (Day 3),4,7.6,4.1,5.8
+Trell Harris,Virginia,72.0,200.0,58.0,833.0,12.0,64.1,Round 4-5 (Day 3),4,6.8,4.1,5.5
+Cyrus Allen,Cincinnati,71.0,180.0,44.0,567.0,8.0,43.6,Round 4-5 (Day 3),4,7.2,4.1,5.6
+Iverson Hooks,UAB,70.0,175.0,69.0,869.0,12.0,72.4,Round 4-5 (Day 3),4,7.9,4.1,6.0
+Easton Messer,Florida Atlantic,69.0,190.0,89.0,955.0,14.0,79.6,Round 4-5 (Day 3),4,7.0,4.1,5.6
+Coy Eakin,Texas Tech,74.0,210.0,45.0,552.0,8.0,42.5,Round 4-5 (Day 3),4,5.1,4.0,4.6
+David Amador II,UTSA,72.0,195.0,40.0,400.0,6.0,36.4,Round 4-5 (Day 3),4,6.7,4.1,5.4
+Jordan Napier,San Diego State,73.0,195.0,47.0,633.0,9.0,63.3,Round 4-5 (Day 3),4,6.6,4.1,5.3
+Chase Hendricks,Ohio,72.0,200.0,73.0,1081.0,15.0,90.1,Round 4-5 (Day 3),4,7.1,4.1,5.6
+Kenny Johnson,Pittsburgh,73.0,205.0,43.0,597.0,9.0,49.8,Round 4-5 (Day 3),4,5.5,4.0,4.8
+Ian Strong,Rutgers,75.0,215.0,51.0,722.0,10.0,72.2,Round 4-5 (Day 3),4,4.7,4.0,4.4
+Anthony Eager,South Alabama,73.0,182.0,42.0,358.0,5.0,29.8,Round 4-5 (Day 3),4,7.1,4.1,5.6
+Devin McCuin,UTSA,72.0,195.0,60.0,644.0,9.0,53.7,Round 4-5 (Day 3),4,7.0,4.1,5.5
+Amare Thomas,Houston,72.0,205.0,58.0,758.0,11.0,58.3,Round 4-5 (Day 3),4,6.2,4.0,5.1
+Chris Dawn Jr.,Texas State,67.0,170.0,28.0,622.0,9.0,103.7,Round 4-5 (Day 3),4,8.3,4.1,6.2
+Junior Sherrill,Vanderbilt,71.0,188.0,50.0,721.0,10.0,55.5,Round 4-5 (Day 3),4,7.0,4.1,5.6
+Jaron Tibbs,Kansas State,74.0,212.0,46.0,582.0,8.0,48.5,Round 4-5 (Day 3),4,4.9,4.0,4.5
+Nyziah Hunter,Nebraska,73.0,205.0,43.0,617.0,9.0,51.4,Round 4-5 (Day 3),4,5.4,4.0,4.7
+Mario Craver,Texas A&M,69.0,165.0,59.0,911.0,13.0,75.9,Round 4-5 (Day 3),4,8.5,4.1,6.3
+Cam Coleman,Auburn,75.0,201.0,53.0,682.0,10.0,56.8,Round 4-5 (Day 3),4,6.2,4.0,5.1
+Mike Matthews,Tennessee,73.0,200.0,51.0,796.0,11.0,61.2,Round 4-5 (Day 3),4,6.5,4.1,5.3
+Nick Marsh,Michigan State,75.0,203.0,54.0,625.0,9.0,52.1,Round 4-5 (Day 3),4,6.1,4.0,5.1
+Jordan Shipp,North Carolina,74.0,190.0,55.0,560.0,8.0,46.7,Round 4-5 (Day 3),4,6.9,4.1,5.5
+Jeremiah Smith,Ohio State,75.0,223.0,82.0,1171.0,17.0,90.1,Round 4-5 (Day 3),4,5.1,4.0,4.6
+Isaiah Sategna,Oklahoma,70.0,182.0,61.0,781.0,11.0,65.1,Round 4-5 (Day 3),4,7.4,4.1,5.7
+Javen Nicholas,Charlotte,69.0,190.0,53.0,613.0,9.0,51.1,Round 4-5 (Day 3),4,7.0,4.1,5.6
+Antonio Williams,Clemson,71.0,190.0,51.0,526.0,8.0,65.8,Round 4-5 (Day 3),4,6.5,4.1,5.3
+Eli Heidenreich,Navy,72.0,206.0,49.0,924.0,13.0,71.1,Round 4-5 (Day 3),4,6.1,4.0,5.1
+DJ Epps,Troy,73.0,185.0,44.0,449.0,6.0,40.8,Round 4-5 (Day 3),4,6.7,4.1,5.4
+Kenny Odom,UTEP,70.0,170.0,48.0,366.0,5.0,36.6,Round 4-5 (Day 3),4,7.6,4.1,5.8
+Jacory Barney Jr.,Nebraska,72.0,170.0,42.0,495.0,7.0,38.1,Round 4-5 (Day 3),4,8.3,4.1,6.2
+Alex Perry,Florida International,77.0,210.0,50.0,697.0,10.0,53.6,Round 4-5 (Day 3),4,5.4,4.0,4.7
+Pofele Ashlock,Hawai'i,74.0,185.0,73.0,808.0,12.0,67.3,Round 4-5 (Day 3),4,7.4,4.1,5.7
+Terrell Anderson,NC State,74.0,204.0,38.0,622.0,9.0,47.8,Round 4-5 (Day 3),4,5.4,4.0,4.7
+KJ Duff,Rutgers,78.0,220.0,61.0,1102.0,16.0,91.8,Round 4-5 (Day 3),4,6.0,4.0,5.0
+Victor Snow,Buffalo,68.0,168.0,59.0,783.0,11.0,65.2,Round 4-5 (Day 3),4,8.3,4.1,6.2
+C.J. Williams,Stanford,73.0,205.0,55.0,635.0,9.0,52.9,Round 4-5 (Day 3),4,5.4,4.0,4.7
+Chauncy Cobb,Arkansas State,66.0,163.0,71.0,806.0,12.0,62.0,Round 4-5 (Day 3),4,8.1,4.1,6.1
+Elijah Sarratt,Indiana,74.0,209.0,55.0,699.0,10.0,58.2,Round 4-5 (Day 3),4,5.0,4.0,4.5
+Chris Brazzell II,Tennessee,77.0,200.0,61.0,968.0,14.0,80.7,Round 4-5 (Day 3),4,7.1,4.1,5.6
+Josiah Freeman,Fresno State,75.0,196.0,50.0,596.0,9.0,49.7,Round 4-5 (Day 3),4,6.9,4.1,5.5
+Demarcus Lacey,Marshall,72.0,190.0,59.0,633.0,9.0,57.5,Round 4-5 (Day 3),4,6.7,4.1,5.4
+Eric Singleton Jr.,Auburn,70.0,180.0,52.0,487.0,7.0,44.3,Round 4-5 (Day 3),4,6.8,4.1,5.5
+Chauncey Spikes,North Carolina Central,74.0,200.0,42.0,542.0,8.0,49.3,Round 4-5 (Day 3),4,5.9,4.1,5.0
+Jackson Harris,Hawai'i,75.0,205.0,40.0,624.0,9.0,62.4,Round 4-5 (Day 3),4,5.4,4.0,4.7
+Jayce Brown,Kansas State,72.0,179.0,39.0,655.0,9.0,72.8,Round 4-5 (Day 3),4,7.1,4.1,5.6
+Hunter Summers,Arkansas State,75.0,161.0,42.0,475.0,7.0,36.5,Round 4-5 (Day 3),4,7.8,4.1,6.0
+Yamir Knight,SMU,68.0,186.0,50.0,564.0,8.0,47.0,Round 4-5 (Day 3),4,7.6,4.1,5.8
+Keshaun Singleton,South Florida,75.0,215.0,44.0,752.0,11.0,62.7,Round 4-5 (Day 3),4,4.8,4.0,4.4
+Cole Weaver,Miami (OH),77.0,220.0,41.0,588.0,8.0,49.0,Round 4-5 (Day 3),4,5.2,4.0,4.6
+Kwazi Gilmer,UCLA,74.0,190.0,47.0,475.0,7.0,39.6,Round 4-5 (Day 3),4,6.9,4.1,5.5
+Braylon Staley,Tennessee,72.0,190.0,65.0,782.0,11.0,60.2,Round 4-5 (Day 3),4,7.3,4.1,5.7
+Andrew Marsh,Michigan,72.0,190.0,43.0,645.0,9.0,71.7,Round 4-5 (Day 3),4,7.0,4.1,5.6
+Ryan Williams,Alabama,72.0,178.0,48.0,681.0,10.0,56.8,Round 4-5 (Day 3),4,7.7,4.1,5.9
+Wyatt Young,North Texas,72.0,195.0,67.0,1103.0,16.0,78.8,Round 4-5 (Day 3),4,6.9,4.1,5.5
+Miles Coleman,North Texas,66.0,159.0,46.0,499.0,7.0,41.6,Round 4-5 (Day 3),4,8.0,4.1,6.0
+Jordan Faison,Notre Dame,70.0,183.0,45.0,587.0,8.0,48.9,Round 4-5 (Day 3),4,7.1,4.1,5.6
+Duane Thomas Jr.,UCF,68.0,175.0,53.0,554.0,8.0,46.2,Round 4-5 (Day 3),4,7.7,4.1,5.9
+Deuce Alexander,Ole Miss,72.0,175.0,43.0,596.0,9.0,39.7,Round 4-5 (Day 3),4,7.8,4.1,5.9
+Beau Sparks,Texas State,71.0,175.0,81.0,1025.0,15.0,78.8,Round 4-5 (Day 3),4,8.2,4.1,6.1
+Danny Scudero,San José State,69.0,174.0,85.0,1189.0,17.0,99.1,Round 4-5 (Day 3),4,8.1,4.1,6.1
+DT Sheffield,Rutgers,70.0,175.0,42.0,551.0,8.0,45.9,Round 4-5 (Day 3),4,7.6,4.1,5.8
+Jaden Barnes,App State,68.0,170.0,51.0,523.0,7.0,58.1,Round 4-5 (Day 3),4,8.0,4.1,6.1
+Griffin Wilde,Northwestern,74.0,200.0,60.0,687.0,10.0,57.2,Round 4-5 (Day 3),4,6.3,4.1,5.2
+Jacob De Jesus,California,67.0,170.0,102.0,965.0,14.0,74.2,Round 4-5 (Day 3),4,8.2,4.1,6.2
+Yannick Smith,East Carolina,75.0,207.0,40.0,503.0,7.0,50.3,Round 4-5 (Day 3),4,4.9,4.0,4.5
+David Wells Jr.,Oregon State,73.0,183.0,42.0,468.0,7.0,42.5,Round 4-5 (Day 3),4,6.9,4.1,5.5
+Javon Robinson,Georgia State,67.0,155.0,54.0,585.0,8.0,48.8,Round 4-5 (Day 3),4,8.3,4.1,6.2
+Donovan Faupel,New Mexico State,73.0,195.0,51.0,548.0,8.0,60.9,Round 4-5 (Day 3),4,6.7,4.1,5.4
+Malachi Toney,Miami,71.0,,91.0,965.0,14.0,64.3,Round 4-5 (Day 3),4,6.7,4.0,5.4
+Zion Booker,Tulsa,70.0,185.0,42.0,392.0,6.0,49.0,Round 4-5 (Day 3),4,6.6,4.1,5.4
+Na'eem Abdul-Rahim Gladding,Old Dominion,72.0,198.0,50.0,672.0,10.0,51.7,Round 4-5 (Day 3),4,6.7,4.1,5.4
+Ryan Wingo,Texas,74.0,214.0,50.0,712.0,10.0,54.8,Round 4-5 (Day 3),4,5.2,4.0,4.6
+T.J. Moore,Clemson,75.0,200.0,50.0,745.0,11.0,62.1,Round 4-5 (Day 3),4,6.8,4.1,5.4
+Que'Sean Brown,Duke,68.0,165.0,59.0,712.0,10.0,50.9,Round 4-5 (Day 3),4,8.2,4.1,6.1
+Leland Smith,San José State,76.0,215.0,42.0,650.0,9.0,59.1,Round 4-5 (Day 3),4,5.0,4.0,4.5
+Kyri Shoels,San José State,72.0,182.0,57.0,737.0,11.0,61.4,Round 4-5 (Day 3),4,7.6,4.1,5.9
+Ted Hurst,Georgia State,75.0,185.0,66.0,949.0,14.0,86.3,Round 4-5 (Day 3),4,7.1,4.1,5.6
+Tony Freeman,Washington State,68.0,171.0,53.0,531.0,8.0,40.8,Round 4-5 (Day 3),4,8.2,4.1,6.1
+Sean Wilson,Delaware,72.0,185.0,63.0,806.0,12.0,62.0,Round 4-5 (Day 3),4,7.5,4.1,5.8
+Matthew Henry,Western Kentucky,71.0,176.0,52.0,833.0,12.0,64.1,Round 4-5 (Day 3),4,8.2,4.1,6.2
+Tre Richardson,Vanderbilt,70.0,175.0,40.0,527.0,8.0,47.9,Round 4-5 (Day 3),4,7.3,4.1,5.7
+Ja'Cory Thomas,Old Dominion,75.0,210.0,39.0,673.0,10.0,56.1,Round 4-5 (Day 3),4,5.0,4.0,4.5
+Cameron Dorner,North Texas,73.0,195.0,49.0,734.0,10.0,52.4,Round 4-5 (Day 3),4,6.6,4.1,5.3
+DeAree Rogers,Northern Illinois,71.0,200.0,45.0,492.0,7.0,41.0,Round 4-5 (Day 3),4,6.9,4.1,5.5
